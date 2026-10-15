@@ -1,0 +1,191 @@
+.view-bottom-center {
+  position: fixed;
+  bottom: var(--space-6);
+  left: 50%;
+  z-index: 20;
+  transform: translateX(-50%);
+}
+
+.street-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  /* Let drags reach the aerial underneath; only the buttons catch the pointer. */
+  pointer-events: none;
+}
+
+.street-hotspot {
+  position: absolute;
+  pointer-events: auto;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  background: var(--color-marker-green);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 0 4px rgba(31, 90, 46, 0.35);
+  transition: transform 200ms ease;
+}
+
+.street-hotspot:hover {
+  transform: translate(-50%, -50%) scale(1.15);
+}
+
+.street-pano {
+  position: fixed;
+  inset: 0;
+  z-index: 8; /* above the aerial, below the menu and the plan card */
+}
+
+.street-pano__layer {
+  position: absolute;
+  inset: 0;
+}
+
+.street-pano__layer.is-current {
+  animation: layer-in var(--blur-transition) ease both;
+}
+
+.street-pano__layer.is-leaving {
+  animation: layer-out var(--blur-transition) ease both;
+}
+
+.street-pano__layer .pano--embedded {
+  border-radius: 0;
+}
+
+/* Plan card: title with a back arrow, then the plan with a red dot per street point. */
+.minimap {
+  position: fixed;
+  left: var(--space-4);
+  bottom: var(--space-4);
+  z-index: 20;
+  width: clamp(240px, 22vw, 360px);
+  padding: var(--space-3);
+  border-radius: var(--radius-panel);
+  background: rgba(70, 95, 80, 0.6);
+  backdrop-filter: var(--blur-panel);
+  -webkit-backdrop-filter: var(--blur-panel);
+}
+
+.minimap header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-2);
+}
+
+.minimap header h2 {
+  margin: 0;
+  font: 600 var(--fs-label) var(--font-ui);
+}
+
+.minimap header button {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--color-btn-fill);
+  color: #fff;
+  cursor: pointer;
+}
+
+.minimap header button:hover {
+  background: var(--color-btn-active);
+}
+
+.minimap__plan {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* The plan zooms and pans to centre on the point you are at (--z is the zoom, --tx/--ty the offset in card sizes). */
+.minimap__map {
+  position: absolute;
+  inset: 0;
+  background: url('/panoramas/street-minimap.jpg') center / cover;
+  transform-origin: 0 0;
+  transform: translate(calc(var(--tx) * -100%), calc(var(--ty) * -100%)) scale(var(--z));
+  transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.minimap__dot {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  transform: translate(-50%, -50%) scale(calc(1 / var(--z)));
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.minimap__dot::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  background: var(--color-pin-red);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6);
+  transition: transform 150ms ease;
+}
+
+.minimap__dot:hover::after {
+  transform: scale(1.6);
+}
+
+.minimap__logo {
+  position: absolute;
+  width: 34px;
+  transform: translate(-50%, -50%) scale(calc(1 / var(--z)));
+  pointer-events: none;
+}
+
+/* The point you are standing at: a soft red glow over its dot. */
+.minimap__here {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  transform: translate(-50%, -50%) scale(calc(1 / var(--z)));
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(217, 58, 46, 0.95), rgba(217, 58, 46, 0.35) 60%, transparent 72%);
+  pointer-events: none;
+}
+
+.flip {
+  transform: scaleX(-1);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .view-bottom-center {
+    bottom: var(--space-4);
+  }
+
+  .minimap {
+    width: 200px;
+  }
+
+  .street-hotspot {
+    width: 36px;
+    height: 36px;
+  }
+}

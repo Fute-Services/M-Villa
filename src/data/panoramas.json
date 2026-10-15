@@ -1,0 +1,898 @@
+{
+ "flat": [
+  {
+   "id": "06000260_33EC_F39C_4195_5C492DFB73D0",
+   "slug": "12-masterplan-day-0600",
+   "label": "12_Masterplan day",
+   "file": "/panoramas/flat/12-masterplan-day-0600.jpg",
+   "size": [
+    3890,
+    2190
+   ],
+   "faceSize": [
+    14848,
+    14848
+   ],
+   "cropFrac": [
+    0.36900592672413796,
+    0.42625269396551724,
+    0.6309940732758621,
+    0.5737473060344828
+   ]
+  },
+  {
+   "id": "00ED6507_33EC_B1A4_418D_B51E98C4397D",
+   "slug": "13-masterplan-night-00ed",
+   "label": "13_Masterplan night",
+   "file": "/panoramas/flat/13-masterplan-night-00ed.jpg",
+   "size": [
+    3890,
+    2190
+   ],
+   "faceSize": [
+    14848,
+    14848
+   ],
+   "cropFrac": [
+    0.36900592672413796,
+    0.42625269396551724,
+    0.6309940732758621,
+    0.5737473060344828
+   ]
+  },
+  {
+   "id": "AFC8F454_B916_6959_41E0_5B59F6E311B3",
+   "slug": "19-street-view-1-afc8",
+   "label": "19_Street View 1",
+   "file": "/panoramas/flat/19-street-view-1-afc8.jpg",
+   "size": [
+    5627,
+    3149
+   ],
+   "faceSize": [
+    21504,
+    21504
+   ],
+   "cropFrac": [
+    0.36923363095238093,
+    0.42680431547619047,
+    0.6309058779761905,
+    0.5732421875
+   ]
+  },
+  {
+   "id": "9A71A562_B295_8E77_41E5_7D17B058092C",
+   "slug": "amenities-9a71",
+   "label": "Amenities",
+   "file": "/panoramas/flat/amenities-9a71.jpg",
+   "size": [
+    5763,
+    3220
+   ],
+   "faceSize": [
+    22016,
+    22016
+   ],
+   "cropFrac": [
+    0.369140625,
+    0.42687136627906974,
+    0.6309047965116279,
+    0.5731286337209303
+   ]
+  },
+  {
+   "id": "6BE96DC7_463F_5558_41CE_EDC6D68E95C5",
+   "slug": "greeen-6be9",
+   "label": "Greeen",
+   "file": "/panoramas/flat/greeen-6be9.jpg",
+   "size": [
+    1878,
+    1119
+   ],
+   "faceSize": [
+    7168,
+    7168
+   ],
+   "cropFrac": [
+    0.36928013392857145,
+    0.421875,
+    0.6312779017857143,
+    0.5779854910714286
+   ]
+  },
+  {
+   "id": "9664DA41_B602_1C48_41C5_6DC718C7D618",
+   "slug": "sport-9664",
+   "label": "Sport",
+   "file": "/panoramas/flat/sport-9664.jpg",
+   "size": [
+    2685,
+    2103
+   ],
+   "faceSize": [
+    10240,
+    10240
+   ],
+   "cropFrac": [
+    0.36904296875,
+    0.39736328125,
+    0.63125,
+    0.602734375
+   ]
+  },
+  {
+   "id": "85057B3E_98FF_9E1E_41DB_33935AA7F3BE",
+   "slug": "street-view-8505",
+   "label": "Street View",
+   "file": "/panoramas/flat/street-view-8505.jpg",
+   "size": [
+    3890,
+    2190
+   ],
+   "faceSize": [
+    14848,
+    14848
+   ],
+   "cropFrac": [
+    0.36900592672413796,
+    0.42625269396551724,
+    0.6309940732758621,
+    0.5737473060344828
+   ]
+  },
+  {
+   "id": "76930B9E_4616_DDE8_41CF_7CDF75DAE628",
+   "slug": "beach-7693",
+   "label": "beach",
+   "file": "/panoramas/flat/beach-7693.jpg",
+   "size": [
+    2682,
+    1760
+   ],
+   "faceSize": [
+    10240,
+    10240
+   ],
+   "cropFrac": [
+    0.36904296875,
+    0.4140625,
+    0.63095703125,
+    0.5859375
+   ]
+  },
+  {
+   "id": "68A9090C_460B_BAE8_4196_E06E0A6A6B3F",
+   "slug": "winless-68a9",
+   "label": "winless",
+   "file": "/panoramas/flat/winless-68a9.jpg",
+   "size": [
+    1878,
+    1119
+   ],
+   "faceSize": [
+    7168,
+    7168
+   ],
+   "cropFrac": [
+    0.36928013392857145,
+    0.421875,
+    0.6312779017857143,
+    0.5779854910714286
+   ]
+  }
+ ],
+ "cube": [
+  {
+   "id": "66B3EDE5_4C93_50C4_41D1_189E66E46C47",
+   "slug": "3-bhk-kitchen-66b3",
+   "label": "3 BHK Kitchen",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/3-bhk-kitchen-66b3",
+   "available": false
+  },
+  {
+   "id": "50EDBE3F_4C73_B344_419E_97375ADC36F8",
+   "slug": "3bhk-bedroom1-v1-50ed",
+   "label": "3BHK Bedroom1 V1",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/3bhk-bedroom1-v1-50ed",
+   "available": false
+  },
+  {
+   "id": "69E1946F_4C91_B7C4_4165_64FC240C6F58",
+   "slug": "3bhk-bedroom2-v1-69e1",
+   "label": "3BHK Bedroom2 V1",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/3bhk-bedroom2-v1-69e1",
+   "available": false
+  },
+  {
+   "id": "69302417_4C9F_5744_41CD_7D862BDEBED8",
+   "slug": "3bhk-living-dining-6930",
+   "label": "3BHK Living & Dining",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/3bhk-living-dining-6930",
+   "available": true
+  },
+  {
+   "id": "6A102402_4C92_D73C_41D1_AB6D3FCA5D6D",
+   "slug": "3bhk-masterbedroom-v1-6a10",
+   "label": "3BHK MasterBedroom V1",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/3bhk-masterbedroom-v1-6a10",
+   "available": false
+  },
+  {
+   "id": "6964CE40_4C97_533C_41B9_81A21BAA63EC",
+   "slug": "3bhk-masterbed-bath-v1-6964",
+   "label": "3BHK Masterbed Bath V1",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/3bhk-masterbed-bath-v1-6964",
+   "available": false
+  },
+  {
+   "id": "66C55AE3_4C91_50FC_41D2_08EE6173E02D",
+   "slug": "4-bhk-premium-powder-room-66c5",
+   "label": "4 BHK PREMIUM POWDER ROOM",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4-bhk-premium-powder-room-66c5",
+   "available": false
+  },
+  {
+   "id": "651E7FB9_4C91_514C_41C3_E136E9F720C8",
+   "slug": "4-bhk-premium-maidbedroom-651e",
+   "label": "4 BHK PREMIUM_MAIDBEDROOM",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4-bhk-premium-maidbedroom-651e",
+   "available": false
+  },
+  {
+   "id": "656DD51E_4CB1_F144_41C3_199EA3337C8B",
+   "slug": "4-bhk-premium-ff-master-bedroom-656d",
+   "label": "4 BHK Premium_FF_MASTER BEDROOM",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4-bhk-premium-ff-master-bedroom-656d",
+   "available": false
+  },
+  {
+   "id": "66C35607_4C92_F344_41BC_1AF85B940155",
+   "slug": "4-bhk-premium-kitchen-66c3",
+   "label": "4 BHK Premium_Kitchen",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4-bhk-premium-kitchen-66c3",
+   "available": false
+  },
+  {
+   "id": "539DEEAD_4C77_B344_419B_BB67BC2E82D9",
+   "slug": "4-bhk-premium-living-539d",
+   "label": "4 BHK Premium_LIVING",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4-bhk-premium-living-539d",
+   "available": false
+  },
+  {
+   "id": "66255E1A_4CB1_734C_41CB_AD0A83EE0A59",
+   "slug": "4-bhk-premium-sf-bedroom-6625",
+   "label": "4 BHK Premium_SF_BEDROOM",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4-bhk-premium-sf-bedroom-6625",
+   "available": false
+  },
+  {
+   "id": "662D6739_4C91_D14C_41D0_1EBF7907F23B",
+   "slug": "4-bhk-premium-sf-bathroom-662d",
+   "label": "4 BHK Premium_SF_Bathroom",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4-bhk-premium-sf-bathroom-662d",
+   "available": false
+  },
+  {
+   "id": "67DAE0B2_4CAF_4F5C_41C6_B15420296E17",
+   "slug": "4-bhk-premium-ff-bedroom-67da",
+   "label": "4 BHK premium FF_BEDROOM",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4-bhk-premium-ff-bedroom-67da",
+   "available": false
+  },
+  {
+   "id": "663F9047_4C91_4FC4_41C5_5DCB3FB9AA56",
+   "slug": "4-bhk-sf-bedroom2-663f",
+   "label": "4 BHK_SF_BEDROOM2",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4-bhk-sf-bedroom2-663f",
+   "available": false
+  },
+  {
+   "id": "DC0A9BF7_F954_04A9_41CD_6E306CE91E25",
+   "slug": "4bhk-gf-bathroom-dc0a",
+   "label": "4BHK GF BAthroom",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4bhk-gf-bathroom-dc0a",
+   "available": false
+  },
+  {
+   "id": "46853951_7C32_2441_41D3_6173D9FDA467",
+   "slug": "4bhk-sf-bedroom-1-4685",
+   "label": "4BHK SF_BEDROOM 1",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4bhk-sf-bedroom-1-4685",
+   "available": false
+  },
+  {
+   "id": "786EF5B3_4C91_F15C_41C2_AB64977CFBCC",
+   "slug": "4bhk-gf-living-360-786e",
+   "label": "4BHK- GF - LIVING -360",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4bhk-gf-living-360-786e",
+   "available": false
+  },
+  {
+   "id": "78BBDD95_4C91_B144_41CA_9EFA37A23901",
+   "slug": "4bhk-gf-kitchen-360-78bb",
+   "label": "4BHK- GF -KITCHEN-360",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4bhk-gf-kitchen-360-78bb",
+   "available": false
+  },
+  {
+   "id": "F7865AD2_B602_3C48_41D7_C2A244F0A194",
+   "slug": "4bhk-ff-master-bedroom-2-f786",
+   "label": "4BHK-FF-MASTER BEDROOM-2",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4bhk-ff-master-bedroom-2-f786",
+   "available": false
+  },
+  {
+   "id": "79B71470_4C91_57DC_41B8_FBD2EB706731",
+   "slug": "4bhk-ff-master-bedroom-01-79b7",
+   "label": "4BHK_FF-MASTER BEDROOM 01",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4bhk-ff-master-bedroom-01-79b7",
+   "available": false
+  },
+  {
+   "id": "79EA306C_4C9F_4FC4_41CB_BC8370EC22AA",
+   "slug": "4bhk-ff-master-bedroom-2-79ea",
+   "label": "4BHK_FF_ Master Bedroom 2",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4bhk-ff-master-bedroom-2-79ea",
+   "available": false
+  },
+  {
+   "id": "7AC1466F_4C97_53C4_41A0_EDD81CA48001",
+   "slug": "4bhk-gf-bedroom-7ac1",
+   "label": "4BHK_GF BEDROOM",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4bhk-gf-bedroom-7ac1",
+   "available": false
+  },
+  {
+   "id": "78DC083C_4CF1_5F44_41D1_A4A9014AC4B5",
+   "slug": "4bhk-sf-bedroom-78dc",
+   "label": "4BHK_SF-BEDROOM",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/4bhk-sf-bedroom-78dc",
+   "available": false
+  },
+  {
+   "id": "68B093FE_4C71_50C4_41CC_55C7B7D1C245",
+   "slug": "5-bhk-twin-bed-gf-living-68b0",
+   "label": "5 BHK TWIN BED _GF_Living",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-bed-gf-living-68b0",
+   "available": false
+  },
+  {
+   "id": "68DD3C35_4C92_B744_41B5_56EE2EC9F686",
+   "slug": "5-bhk-twin-villa-ff-bedroom2-68dd",
+   "label": "5 BHK TWIN VILLA _FF_Bedroom2",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-villa-ff-bedroom2-68dd",
+   "available": false
+  },
+  {
+   "id": "710B6931_4C91_715C_41D2_13D63E4E0B3B",
+   "slug": "5-bhk-twin-villa-sf-master-bedroom-710b",
+   "label": "5 BHK TWIN VILLA_ SF_Master Bedroom",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-villa-sf-master-bedroom-710b",
+   "available": false
+  },
+  {
+   "id": "692FDBBB_4C97_F14C_41A6_005BDB34D439",
+   "slug": "5-bhk-twin-sf-bedroom3-692f",
+   "label": "5 BHK TWIN_SF_Bedroom3",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-sf-bedroom3-692f",
+   "available": false
+  },
+  {
+   "id": "D7562FD0_F50D_F980_41B0_CD232CAD30BB",
+   "slug": "5-bhk-twin-balcony-d756",
+   "label": "5 BHK Twin_balcony",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-balcony-d756",
+   "available": false
+  },
+  {
+   "id": "DF4B2966_F96C_05AB_41EA_8CABDEEDD998",
+   "slug": "5-bhk-twin-terrace-view-df4b",
+   "label": "5 BHK twin terrace view",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-terrace-view-df4b",
+   "available": false
+  },
+  {
+   "id": "A0CE88E2_314D_DA89_41C2_F4F11BB94EEE",
+   "slug": "5-bhk-twin-villa-balcony-360d-a-v1-a0ce",
+   "label": "5 BHK_TWIN VILLA balcony 360D A V1",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-villa-balcony-360d-a-v1-a0ce",
+   "available": false
+  },
+  {
+   "id": "A2CD078B_314D_F69F_4188_E7B629A692DD",
+   "slug": "5-bhk-twin-villa-balcony-360d-b-v1-a2cd",
+   "label": "5 BHK_TWIN VILLA balcony 360D B V1",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-villa-balcony-360d-b-v1-a2cd",
+   "available": false
+  },
+  {
+   "id": "A2CD02DD_314D_EEBB_41BD_92C21945E02F",
+   "slug": "5-bhk-twin-villa-balcony-360d-c-v1-a2cd",
+   "label": "5 BHK_TWIN VILLA balcony 360D C V1",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-villa-balcony-360d-c-v1-a2cd",
+   "available": false
+  },
+  {
+   "id": "693A4F11_4C93_715C_41BE_39D89737BA3B",
+   "slug": "5-bhk-twin-villa-ff-masterbedroom-693a",
+   "label": "5 BHK_TWIN VILLA_FF_MASTERBEDROOM",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-villa-ff-masterbedroom-693a",
+   "available": false
+  },
+  {
+   "id": "68328702_4C71_513C_41C8_814B287727EA",
+   "slug": "5-bhk-twin-villa-kitchen-6832",
+   "label": "5 BHK_TWIN VILLA_KITCHEN",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-villa-kitchen-6832",
+   "available": false
+  },
+  {
+   "id": "D7829C5C_F50E_1E80_41E6_A722A3B1B6C6",
+   "slug": "5-bhk-twin-villa-sf-bathroom2-d782",
+   "label": "5 BHK_TWIN VILLA_SF_BATHROOM2",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-villa-sf-bathroom2-d782",
+   "available": false
+  },
+  {
+   "id": "75ED0641_4C92_D33C_41C8_C53DD5A30849",
+   "slug": "5-bhk-twin-villa-sf-bedroom2-75ed",
+   "label": "5 BHK_TWIN VILLA_SF_Bedroom2",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5-bhk-twin-villa-sf-bedroom2-75ed",
+   "available": false
+  },
+  {
+   "id": "9C5C4DA4_B8EF_05EE_41D8_A870216394C8",
+   "slug": "5bhk-terrace-9c5c",
+   "label": "5BHK Terrace",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5bhk-terrace-9c5c",
+   "available": false
+  },
+  {
+   "id": "9B0A9DF5_B8EF_056E_41E4_BBB27F0AC5FE",
+   "slug": "5bhk-balcony-9b0a",
+   "label": "5BHK balcony",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5bhk-balcony-9b0a",
+   "available": false
+  },
+  {
+   "id": "381237F7_7C1D_EC41_41D0_0E1D9EF60B6D",
+   "slug": "5bhk-ff-bedroom-1-hr-3812",
+   "label": "5BHK_FF_Bedroom-1_HR",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5bhk-ff-bedroom-1-hr-3812",
+   "available": false
+  },
+  {
+   "id": "39E7A0C5_7C12_6441_41C7_2090ED2A58A3",
+   "slug": "5bhk-ff-bedroom-2-hr-39e7",
+   "label": "5BHK_FF_Bedroom-2_HR",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5bhk-ff-bedroom-2-hr-39e7",
+   "available": false
+  },
+  {
+   "id": "F6622B81_B602_1CC8_41E5_B2C04CFA6A51",
+   "slug": "5bhk-ff-master-bedroom-1-hr-f662",
+   "label": "5BHK_FF_Master Bedroom-1_HR",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5bhk-ff-master-bedroom-1-hr-f662",
+   "available": false
+  },
+  {
+   "id": "F63DE010_B60E_0BC8_4188_8C5136A74E59",
+   "slug": "5bhk-ffloor-bath1-hr-f63d",
+   "label": "5BHK_FFloor _Bath1_HR",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5bhk-ffloor-bath1-hr-f63d",
+   "available": false
+  },
+  {
+   "id": "F617C949_B60E_3C58_4167_62F02C08011D",
+   "slug": "5bhk-ffloor-bath2-hr-f617",
+   "label": "5BHK_FFloor _Bath2_HR",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5bhk-ffloor-bath2-hr-f617",
+   "available": false
+  },
+  {
+   "id": "366D5234_7C12_27C7_41C5_7D63CC8093CE",
+   "slug": "5bhk-gfloor-kitchen-hr-366d",
+   "label": "5BHK_GFloor _Kitchen_HR",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5bhk-gfloor-kitchen-hr-366d",
+   "available": false
+  },
+  {
+   "id": "37C52345_7C12_6441_41DD_FCE116C1C452",
+   "slug": "5bhk-gfloor-living-dining-hr-37c5",
+   "label": "5BHK_GFloor _Living&Dining_HR",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5bhk-gfloor-living-dining-hr-37c5",
+   "available": false
+  },
+  {
+   "id": "2D1CB1D4_7C6E_2447_41C8_36F9852E38A0",
+   "slug": "5bhk-sf-bedroom-3-hr-2d1c",
+   "label": "5BHK_SF_Bedroom-3_HR",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5bhk-sf-bedroom-3-hr-2d1c",
+   "available": false
+  },
+  {
+   "id": "37E486A0_7C13_ECFF_41DD_B18832135F65",
+   "slug": "5bhk-sf-master-bedroom-2-hr-37e4",
+   "label": "5BHK_SF_Master Bedroom-2_HR",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/5bhk-sf-master-bedroom-2-hr-37e4",
+   "available": false
+  },
+  {
+   "id": "0D5C2C3E_4CAE_D744_41BD_D903391A9606",
+   "slug": "basketball-0d5c",
+   "label": "Basketball",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/basketball-0d5c",
+   "available": true
+  },
+  {
+   "id": "97CB1572_B606_1448_41B3_22A12DE78B9F",
+   "slug": "beach-lagoon-97cb",
+   "label": "Beach Lagoon",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/beach-lagoon-97cb",
+   "available": true
+  },
+  {
+   "id": "97CA1BFB_B606_FC38_41CF_B6431BC40C21",
+   "slug": "cabana-seating-97ca",
+   "label": "Cabana Seating",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/cabana-seating-97ca",
+   "available": false
+  },
+  {
+   "id": "F3BA7093_DB66_9947_41D3_273A2040452D",
+   "slug": "clubhouse-ff-f3ba",
+   "label": "Clubhouse FF",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/clubhouse-ff-f3ba",
+   "available": true
+  },
+  {
+   "id": "D6B4584E_F512_2680_41B8_2698BB00860C",
+   "slug": "clubhouse-gf-d6b4",
+   "label": "Clubhouse GF",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/clubhouse-gf-d6b4",
+   "available": true
+  },
+  {
+   "id": "E9961532_CBFC_99DE_41E7_6CC564505BDA",
+   "slug": "daycare-e996",
+   "label": "Daycare",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/daycare-e996",
+   "available": true
+  },
+  {
+   "id": "91DB5439_B61E_1438_41E3_C2E2B12F5C99",
+   "slug": "drone-shot-91db",
+   "label": "Drone Shot",
+   "faceSize": 4608,
+   "path": "/panoramas/cube/drone-shot-91db",
+   "available": false
+  },
+  {
+   "id": "0E94FEA7_4CAE_D344_41B2_4D112FC7C4AD",
+   "slug": "football-0e94",
+   "label": "Football",
+   "faceSize": 2048,
+   "path": "/panoramas/cube/football-0e94",
+   "available": true
+  },
+  {
+   "id": "97C73A71_B602_1C48_41E1_0752650A4A54",
+   "slug": "garden-97c7",
+   "label": "Garden",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/garden-97c7",
+   "available": true
+  },
+  {
+   "id": "0FB0B181_4C93_513C_41C8_DE1D0CCAB714",
+   "slug": "gate-01-0fb0",
+   "label": "Gate 01",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/gate-01-0fb0",
+   "available": true
+  },
+  {
+   "id": "FDF4378F_DB62_675F_41E9_17728DEC8266",
+   "slug": "gate-02-fdf4",
+   "label": "Gate 02",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/gate-02-fdf4",
+   "available": true
+  },
+  {
+   "id": "0F45FBF3_4C93_70DC_413A_FC312ECAC154",
+   "slug": "greenz-sanctuary-0f45",
+   "label": "Greenz Sanctuary",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/greenz-sanctuary-0f45",
+   "available": false
+  },
+  {
+   "id": "979AC05A_B606_0C78_41C7_51A2F91D7250",
+   "slug": "greenz-sanctuary-979a",
+   "label": "Greenz Sanctuary",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/greenz-sanctuary-979a",
+   "available": true
+  },
+  {
+   "id": "0D597AD8_4C97_B0CC_41C6_A15131A87A46",
+   "slug": "gym-0d59",
+   "label": "Gym",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/gym-0d59",
+   "available": true
+  },
+  {
+   "id": "97ED1E35_B606_37C8_41E0_D75007567131",
+   "slug": "hammock-bay-1-97ed",
+   "label": "Hammock Bay 1",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/hammock-bay-1-97ed",
+   "available": true
+  },
+  {
+   "id": "97C670DB_B606_0C78_41D8_D76AF7F3E3E9",
+   "slug": "hammock-bay-2-97c6",
+   "label": "Hammock Bay 2",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/hammock-bay-2-97c6",
+   "available": true
+  },
+  {
+   "id": "97DB7892_B606_1CC8_41DC_4C32FC9CD6A4",
+   "slug": "jogging-track-1-97db",
+   "label": "Jogging Track 1",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/jogging-track-1-97db",
+   "available": true
+  },
+  {
+   "id": "97FD9E5B_B606_1478_41E0_A1A1F0FAB903",
+   "slug": "jogging-track-2-97fd",
+   "label": "Jogging Track 2",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/jogging-track-2-97fd",
+   "available": true
+  },
+  {
+   "id": "97F939FC_B606_3C38_41E5_EDEC80FE030E",
+   "slug": "kids-pool-97f9",
+   "label": "Kids Pool",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/kids-pool-97f9",
+   "available": true
+  },
+  {
+   "id": "0F187639_4C91_D34C_41B6_DF0B8A13972B",
+   "slug": "main-entrance-cam2-0f18",
+   "label": "Main entrance_cam2",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/main-entrance-cam2-0f18",
+   "available": false
+  },
+  {
+   "id": "9A204BEA_B602_3C58_41D7_1C23C6B1908C",
+   "slug": "mosque-9a20",
+   "label": "Mosque",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/mosque-9a20",
+   "available": true
+  },
+  {
+   "id": "0EA7327A_4C91_53CC_41CD_2995B6877C93",
+   "slug": "padel-0ea7",
+   "label": "Padel",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/padel-0ea7",
+   "available": true
+  },
+  {
+   "id": "97004636_B60E_77C8_41E6_305EF176B349",
+   "slug": "pano-street-01-9700",
+   "label": "Pano Street 01",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-01-9700",
+   "available": true
+  },
+  {
+   "id": "97FDC32F_B60E_0DD8_41C2_5BF63113BD97",
+   "slug": "pano-street-02-97fd",
+   "label": "Pano Street 02",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-02-97fd",
+   "available": true
+  },
+  {
+   "id": "97D90FCD_B601_F458_41C7_307A82C8AE7D",
+   "slug": "pano-street-03-97d9",
+   "label": "Pano Street 03",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-03-97d9",
+   "available": true
+  },
+  {
+   "id": "0D019E6B_4CAF_73CC_41C4_07F271486F60",
+   "slug": "pano-street-04-0d01",
+   "label": "Pano Street 04",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-04-0d01",
+   "available": true
+  },
+  {
+   "id": "9623788C_B602_7CD8_41C9_B2EF46BF2B8F",
+   "slug": "pano-street-05-9623",
+   "label": "Pano Street 05",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-05-9623",
+   "available": true
+  },
+  {
+   "id": "97D165AE_B602_34D8_41E4_F18E9EC43882",
+   "slug": "pano-street-06-97d1",
+   "label": "Pano Street 06",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-06-97d1",
+   "available": true
+  },
+  {
+   "id": "0DA1CC40_4CAF_B73C_41C1_B7929C7C99F1",
+   "slug": "pano-street-07-0da1",
+   "label": "Pano Street 07",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-07-0da1",
+   "available": true
+  },
+  {
+   "id": "962478D9_B602_1C78_41E6_8478579360DF",
+   "slug": "pano-street-08-9624",
+   "label": "Pano Street 08",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-08-9624",
+   "available": true
+  },
+  {
+   "id": "97DEE3D0_B602_0C48_41E1_D07E6A1F6A32",
+   "slug": "pano-street-09-97de",
+   "label": "Pano Street 09",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-09-97de",
+   "available": true
+  },
+  {
+   "id": "97DDC41C_B602_0BF8_41B4_3D036B8BBA79",
+   "slug": "pano-street-10-97dd",
+   "label": "Pano Street 10",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-10-97dd",
+   "available": true
+  },
+  {
+   "id": "96262D0A_B602_35D8_41BF_3CA4CB09BE7B",
+   "slug": "pano-street-11-9626",
+   "label": "Pano Street 11",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-11-9626",
+   "available": true
+  },
+  {
+   "id": "96239AB3_B603_FCC8_41BB_359D62180A09",
+   "slug": "pano-street-12-9623",
+   "label": "Pano Street 12",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-12-9623",
+   "available": true
+  },
+  {
+   "id": "962065D0_B602_3448_41E2_9A5086BFA6DC",
+   "slug": "pano-street-13-9620",
+   "label": "Pano Street 13",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-13-9620",
+   "available": true
+  },
+  {
+   "id": "9625914D_B602_0C58_41C1_84E18864549F",
+   "slug": "pano-street-14-9625",
+   "label": "Pano Street 14",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-14-9625",
+   "available": true
+  },
+  {
+   "id": "96250C89_B602_14D8_41D6_7B1D4BAB6993",
+   "slug": "pano-street-15-9625",
+   "label": "Pano Street 15",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-15-9625",
+   "available": true
+  },
+  {
+   "id": "962C9576_B602_1448_41B2_396A72DA415F",
+   "slug": "pano-street-16-962c",
+   "label": "Pano Street 16",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/pano-street-16-962c",
+   "available": true
+  },
+  {
+   "id": "0EED7F5D_4CAF_B1C4_41C5_F35DF6C8AB6B",
+   "slug": "spa-0eed",
+   "label": "SPA",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/spa-0eed",
+   "available": true
+  },
+  {
+   "id": "97C44F78_B606_3438_41CE_8654DD86EC46",
+   "slug": "sunken-seating-97c4",
+   "label": "Sunken Seating",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/sunken-seating-97c4",
+   "available": true
+  },
+  {
+   "id": "97F96702_B606_75C8_41C3_620274C82AF0",
+   "slug": "walk-zone-97f9",
+   "label": "Walk Zone",
+   "faceSize": 2560,
+   "path": "/panoramas/cube/walk-zone-97f9",
+   "available": true
+  }
+ ]
+}

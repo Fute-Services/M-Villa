@@ -1,0 +1,198 @@
+.pano {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  overflow: hidden;
+  background: #0b1511;
+  touch-action: none;
+}
+
+.pano__canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+}
+
+.pano__canvas:active {
+  cursor: grabbing;
+}
+
+.pano__hotspot {
+  position: absolute;
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  background: rgba(31, 90, 46, 0.85) url('/icons/explore.png') center / 22px no-repeat;
+  box-shadow: 0 0 0 6px rgba(31, 90, 46, 0.3);
+  cursor: pointer;
+  animation: hotspot-pulse 2s ease-in-out infinite;
+}
+
+.pano__hotspot:hover {
+  background-color: var(--color-marker-green);
+}
+
+@keyframes hotspot-pulse {
+  50% {
+    box-shadow: 0 0 0 12px rgba(31, 90, 46, 0.12);
+  }
+}
+
+.pano__title {
+  position: absolute;
+  top: var(--space-5);
+  left: var(--space-5);
+  z-index: 2;
+  max-width: calc(100% - 100px);
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-pill);
+  background: var(--color-dark-glass);
+  font: 600 var(--fs-label) var(--font-ui);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pano__status {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  padding: var(--space-4) var(--space-6);
+  border-radius: var(--radius-btn);
+  background: var(--color-dark-glass);
+  text-align: center;
+}
+
+.pano__help {
+  position: absolute;
+  bottom: var(--space-5);
+  left: 50%;
+  z-index: 2;
+  transform: translateX(-50%);
+  padding: 6px var(--space-5);
+  border-radius: var(--radius-pill);
+  background: var(--color-dark-glass);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.pano__close {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  z-index: 3;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pano__hotspot {
+    animation: none;
+  }
+}
+
+/* Plot View: the viewer fills its parent (the map frame) instead of the window. */
+.pano--embedded {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: 8px;
+}
+
+.pano__image-hotspot {
+  position: absolute;
+  z-index: 2;
+  height: auto;
+  max-width: none;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Street View chevrons: a flat white "^" lying on the ground, like the reference. */
+.pano__hotspot--chevron {
+  width: 64px;
+  height: 40px;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  animation: chevron-nudge 1.8s ease-in-out infinite;
+}
+
+.pano__hotspot--chevron svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.55));
+}
+
+.pano__hotspot--chevron:hover svg {
+  stroke: var(--color-gold);
+}
+
+@keyframes chevron-nudge {
+  50% {
+    transform: translate(-50%, -58%);
+  }
+}
+
+/* Door hotspots (Inventory): a white ring with a door icon; the room name fades in above it on hover. */
+.pano__door {
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.pano__door svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.6;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.5));
+  transition: transform 200ms ease;
+}
+
+.pano__door:hover svg {
+  transform: scale(1.18);
+}
+
+.pano__door-label {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-bottom: 4px;
+  transform: translate(-50%, 4px);
+  color: #fff;
+  font: 500 11px/1.15 var(--font-ui);
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.65);
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+
+.pano__door:hover .pano__door-label,
+.pano__door:focus-visible .pano__door-label {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}

@@ -1,0 +1,262 @@
+/* The reference viewer: a dark rounded panel left of the menu, pages in a scrolling two-column list, toolbar below. */
+.brochure {
+  position: fixed;
+  top: var(--space-4);
+  left: var(--space-4);
+  bottom: var(--space-4);
+  right: calc(257px + 2 * var(--space-4) + var(--space-3));
+  z-index: 22;
+}
+
+.brochure__panel {
+  --bg: #0b0b0e;
+  --bar: #17171c;
+  --btn: #202026;
+  --ink: #d7d7dc;
+  --muted: #8a8a93;
+  --gold: #e0a460;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 16px;
+  background: var(--bg);
+  color: var(--ink);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+  animation: layer-in 700ms ease both;
+}
+
+.brochure__panel.is-light {
+  --bg: #e6e6ea;
+  --bar: #f3f3f6;
+  --btn: #e1e1e6;
+  --ink: #26262b;
+  --muted: #6d6d76;
+}
+
+.brochure__stage {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  border-radius: 16px 16px 0 0;
+}
+
+.brochure__scroll {
+  height: 100%;
+  padding: 18px 8% 14px;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #444 transparent;
+}
+
+.brochure__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  width: calc(100% * var(--zoom));
+  margin: 0 auto;
+}
+
+.brochure__page img,
+.brochure__flip img {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+}
+
+.brochure__page.is-cover {
+  grid-column: 1 / -1;
+}
+
+.brochure__flip {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  overflow: auto;
+}
+
+.brochure__flip img {
+  width: auto;
+  max-width: calc(100% * var(--zoom));
+  max-height: calc(100% * var(--zoom));
+  animation: layer-in 450ms ease both;
+}
+
+/* Toolbar */
+.brochure__bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 14px;
+  padding: 12px 16px;
+  border-radius: 0 0 16px 16px;
+  background: var(--bar);
+  font: 500 12px var(--font-ui);
+}
+
+.brochure__group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bb {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  background: var(--btn);
+  color: var(--ink);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 150ms ease, border-color 150ms ease;
+}
+
+.bb:hover:not(:disabled) {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.bb:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.bb.is-on {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.brochure__pager {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  background: var(--btn);
+  color: var(--muted);
+}
+
+.brochure__pager input {
+  width: 34px;
+  border: 0;
+  background: transparent;
+  color: var(--gold);
+  font: 500 14px var(--font-ui);
+  text-align: center;
+  outline: none;
+}
+
+.brochure__seg {
+  display: flex;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 9px;
+  background: var(--btn);
+}
+
+.brochure__seg button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 30px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+  font: 500 12px var(--font-ui);
+  cursor: pointer;
+}
+
+.brochure__seg button[aria-pressed='true'] {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--gold);
+}
+
+.brochure__speed {
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  background: var(--btn);
+  color: var(--ink);
+  font: 500 13px var(--font-ui);
+}
+
+.brochure__zoom {
+  min-width: 42px;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* Close: a grey circle sitting on the panel's top-right edge. */
+.brochure__close {
+  position: absolute;
+  top: 22px;
+  right: -26px;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(120, 124, 120, 0.85);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+
+.brochure__close:hover {
+  background: rgba(150, 154, 150, 0.95);
+}
+
+.brochure__panel:fullscreen {
+  border-radius: 0;
+}
+
+.brochure__panel:fullscreen .brochure__close {
+  right: 20px;
+}
+
+@media (max-width: 1024px) {
+  .brochure {
+    right: var(--space-4);
+  }
+
+  .brochure__close {
+    right: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .brochure {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .brochure__panel,
+  .brochure__stage {
+    border-radius: 0;
+  }
+
+  .brochure__scroll {
+    padding: 56px 8px 8px;
+  }
+
+  .brochure__bar {
+    padding: 8px;
+  }
+}

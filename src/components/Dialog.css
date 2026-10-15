@@ -1,0 +1,124 @@
+.dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: var(--space-5);
+  background: rgba(8, 16, 12, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.dialog {
+  width: min(460px, 100%);
+  max-height: calc(100dvh - 2 * var(--space-5));
+  overflow-y: auto;
+  padding: var(--space-6);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-modal);
+  background: var(--color-dark-glass);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: dialog-in 200ms ease;
+}
+
+@keyframes dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+}
+
+.dialog__title {
+  margin: 0 0 var(--space-4);
+  color: var(--color-gold);
+  font: 600 18px var(--font-ui);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.dialog__body p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.dialog__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.btn {
+  padding: var(--space-3) var(--space-6);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-text);
+  font: 500 var(--fs-label) var(--font-ui);
+  cursor: pointer;
+  transition: background 200ms ease;
+}
+
+.btn:hover {
+  background: var(--color-btn-fill);
+}
+
+.btn--primary {
+  border-color: transparent;
+  background: linear-gradient(180deg, #f1e4b8, #c9b070);
+  color: #2b2a1c;
+  font-weight: 600;
+}
+
+.btn--primary:hover {
+  background: linear-gradient(180deg, #f6ecc9, #d4bd7e);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.form {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.field {
+  display: grid;
+  gap: 4px;
+  font-size: 13px;
+}
+
+.field input,
+.field select,
+.field textarea {
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-text);
+  font: 400 14px var(--font-ui);
+}
+
+.field select option {
+  color: #111;
+}
+
+.field input[aria-invalid='true'],
+.field select[aria-invalid='true'],
+.field textarea[aria-invalid='true'] {
+  border-color: #ff8a80;
+}
+
+.field__error {
+  color: #ffb4ab;
+  font-size: 12px;
+}
+
+.field input:focus-visible,
+.field select:focus-visible,
+.field textarea:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 1px;
+}

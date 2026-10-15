@@ -1,0 +1,107 @@
+.amenity-stage {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  overflow: hidden;
+  background: #14201a;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+  /* Arriving from Home: a blur dissolve with a slight zoom-out, as in the reference. */
+  animation: amenity-in var(--blur-transition) ease both;
+}
+
+.amenity-stage.is-hovering {
+  cursor: pointer;
+}
+
+.amenity-stage:active {
+  cursor: grabbing;
+}
+
+@keyframes amenity-in {
+  from {
+    opacity: 0;
+    filter: blur(22px);
+    transform: scale(1.14);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+
+.amenity-world {
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: transform;
+}
+
+.amenity-world > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Hub areas: invisible until hovered, then they darken softly. */
+.amenity-regions {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  /* Soft edges. Applied to the svg root: inside the svg a px blur would be measured in viewBox units. */
+  filter: blur(calc(var(--w) * 0.0008));
+}
+
+.amenity-regions polygon {
+  /* Measured from the reference: the hovered area is about 48% covered by a dark grey (around #303030). */
+  fill: rgba(48, 48, 48, 0.48);
+  stroke: rgba(48, 48, 48, 0.48);
+  stroke-width: 0.004;
+  stroke-linejoin: round;
+  opacity: 0;
+  transition: opacity 450ms ease;
+}
+
+.amenity-regions polygon.is-active {
+  opacity: 1;
+}
+
+/* Hub name plates: upright serif, two lines, tilted with the perspective, sized in proportion to the image. */
+.amenity-label {
+  position: absolute;
+  top: calc(var(--fy) * 100%);
+  left: calc(var(--fx) * 100%);
+  display: grid;
+  transform: translate(-50%, -50%) rotate(var(--rot));
+  color: #fff;
+  font: 700 calc(var(--w) * var(--lw) * 0.2) / 1 Georgia, 'Times New Roman', serif;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-shadow:
+    0 0.05em 0.14em rgba(0, 0, 0, 0.5),
+    0 0 0.45em rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  filter: blur(6px);
+  transition:
+    opacity 450ms ease,
+    filter 450ms ease;
+}
+
+.amenity-label.is-active {
+  opacity: 1;
+  filter: blur(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .amenity-regions polygon,
+  .amenity-label {
+    transition: none;
+  }
+}

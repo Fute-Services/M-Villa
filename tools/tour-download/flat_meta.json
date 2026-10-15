@@ -1,0 +1,182 @@
+{
+ "00ED6507_33EC_B1A4_418D_B51E98C4397D": {
+  "id": "00ED6507_33EC_B1A4_418D_B51E98C4397D",
+  "slug": "13-masterplan-night-00ed",
+  "label": "13_Masterplan night",
+  "file": "/panoramas/flat/13-masterplan-night-00ed.jpg",
+  "size": [
+   3890,
+   2190
+  ],
+  "faceSize": [
+   14848,
+   14848
+  ],
+  "cropFrac": [
+   0.36900592672413796,
+   0.42625269396551724,
+   0.6309940732758621,
+   0.5737473060344828
+  ]
+ },
+ "06000260_33EC_F39C_4195_5C492DFB73D0": {
+  "id": "06000260_33EC_F39C_4195_5C492DFB73D0",
+  "slug": "12-masterplan-day-0600",
+  "label": "12_Masterplan day",
+  "file": "/panoramas/flat/12-masterplan-day-0600.jpg",
+  "size": [
+   3890,
+   2190
+  ],
+  "faceSize": [
+   14848,
+   14848
+  ],
+  "cropFrac": [
+   0.36900592672413796,
+   0.42625269396551724,
+   0.6309940732758621,
+   0.5737473060344828
+  ]
+ },
+ "68A9090C_460B_BAE8_4196_E06E0A6A6B3F": {
+  "id": "68A9090C_460B_BAE8_4196_E06E0A6A6B3F",
+  "slug": "winless-68a9",
+  "label": "winless",
+  "file": "/panoramas/flat/winless-68a9.jpg",
+  "size": [
+   1878,
+   1119
+  ],
+  "faceSize": [
+   7168,
+   7168
+  ],
+  "cropFrac": [
+   0.36928013392857145,
+   0.421875,
+   0.6312779017857143,
+   0.5779854910714286
+  ]
+ },
+ "6BE96DC7_463F_5558_41CE_EDC6D68E95C5": {
+  "id": "6BE96DC7_463F_5558_41CE_EDC6D68E95C5",
+  "slug": "greeen-6be9",
+  "label": "Greeen",
+  "file": "/panoramas/flat/greeen-6be9.jpg",
+  "size": [
+   1878,
+   1119
+  ],
+  "faceSize": [
+   7168,
+   7168
+  ],
+  "cropFrac": [
+   0.36928013392857145,
+   0.421875,
+   0.6312779017857143,
+   0.5779854910714286
+  ]
+ },
+ "76930B9E_4616_DDE8_41CF_7CDF75DAE628": {
+  "id": "76930B9E_4616_DDE8_41CF_7CDF75DAE628",
+  "slug": "beach-7693",
+  "label": "beach",
+  "file": "/panoramas/flat/beach-7693.jpg",
+  "size": [
+   2682,
+   1760
+  ],
+  "faceSize": [
+   10240,
+   10240
+  ],
+  "cropFrac": [
+   0.36904296875,
+   0.4140625,
+   0.63095703125,
+   0.5859375
+  ]
+ },
+ "85057B3E_98FF_9E1E_41DB_33935AA7F3BE": {
+  "id": "85057B3E_98FF_9E1E_41DB_33935AA7F3BE",
+  "slug": "street-view-8505",
+  "label": "Street View",
+  "file": "/panoramas/flat/street-view-8505.jpg",
+  "size": [
+   3890,
+   2190
+  ],
+  "faceSize": [
+   14848,
+   14848
+  ],
+  "cropFrac": [
+   0.36900592672413796,
+   0.42625269396551724,
+   0.6309940732758621,
+   0.5737473060344828
+  ]
+ },
+ "9664DA41_B602_1C48_41C5_6DC718C7D618": {
+  "id": "9664DA41_B602_1C48_41C5_6DC718C7D618",
+  "slug": "sport-9664",
+  "label": "Sport",
+  "file": "/panoramas/flat/sport-9664.jpg",
+  "size": [
+   2685,
+   2103
+  ],
+  "faceSize": [
+   10240,
+   10240
+  ],
+  "cropFrac": [
+   0.36904296875,
+   0.39736328125,
+   0.63125,
+   0.602734375
+  ]
+ },
+ "9A71A562_B295_8E77_41E5_7D17B058092C": {
+  "id": "9A71A562_B295_8E77_41E5_7D17B058092C",
+  "slug": "amenities-9a71",
+  "label": "Amenities",
+  "file": "/panoramas/flat/amenities-9a71.jpg",
+  "size": [
+   5763,
+   3220
+  ],
+  "faceSize": [
+   22016,
+   22016
+  ],
+  "cropFrac": [
+   0.369140625,
+   0.42687136627906974,
+   0.6309047965116279,
+   0.5731286337209303
+  ]
+ },
+ "AFC8F454_B916_6959_41E0_5B59F6E311B3": {
+  "id": "AFC8F454_B916_6959_41E0_5B59F6E311B3",
+  "slug": "19-street-view-1-afc8",
+  "label": "19_Street View 1",
+  "file": "/panoramas/flat/19-street-view-1-afc8.jpg",
+  "size": [
+   5627,
+   3149
+  ],
+  "faceSize": [
+   21504,
+   21504
+  ],
+  "cropFrac": [
+   0.36923363095238093,
+   0.42680431547619047,
+   0.6309058779761905,
+   0.5732421875
+  ]
+ }
+}

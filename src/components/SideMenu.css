@@ -1,0 +1,226 @@
+.side-menu {
+  position: fixed;
+  top: var(--space-4); /* [M] */
+  right: var(--space-4);
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  width: 257px; /* [M] */
+  max-height: calc(100dvh - 2 * var(--space-4));
+  padding: var(--space-4);
+  border-radius: var(--radius-panel);
+  background: var(--color-panel);
+  backdrop-filter: var(--blur-panel);
+  -webkit-backdrop-filter: var(--blur-panel);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.side-menu.is-open {
+  height: calc(100dvh - 2 * var(--space-4)); /* [M] 705px of 732px */
+}
+
+.side-menu.is-collapsed {
+  width: auto;
+  min-width: 190px;
+}
+
+.side-menu__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-1) var(--space-1) var(--space-3);
+}
+
+.logo {
+  display: block;
+  height: 64px;
+  width: auto;
+}
+
+.side-menu.is-collapsed .logo {
+  height: 48px;
+}
+
+.side-menu__toggle {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--color-btn-fill);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.side-menu__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--space-3);
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
+}
+
+.side-menu__nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  height: 60px; /* [E] */
+  padding: 0 var(--space-5);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: var(--color-btn-fill);
+  color: var(--color-text);
+  font: 400 var(--fs-label) var(--font-menu); /* [M] */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 200ms ease;
+}
+
+.menu-button:hover {
+  background: var(--color-btn-active);
+}
+
+.menu-button span {
+  flex: 1;
+  text-align: center;
+  font-weight: 700;
+}
+
+.menu-button.is-current {
+  background: var(--color-btn-active);
+  border-color: var(--color-border);
+}
+
+/* One card holds the contact details, the offices and the social icons (as in the reference). */
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  padding: var(--space-4) var(--space-3) var(--space-4);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  font: 500 11px/1.4 var(--font-ui);
+}
+
+.info-card__row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.info-card__row > img {
+  flex: none;
+  opacity: 0.85;
+}
+
+.info-card address {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+}
+
+.info-card p {
+  margin: 0;
+}
+
+.info-card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.info-card a:hover {
+  text-decoration: underline;
+}
+
+.side-menu__socials {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-3);
+}
+
+/* Four round controls in a dark pill. */
+.side-menu__controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 999px;
+  background: rgba(14, 38, 26, 0.7);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.round-button {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.round-button--lg {
+  flex: 1;
+  width: auto;
+  height: 46px;
+  background: rgba(40, 74, 54, 0.75);
+  transition: background 200ms ease;
+}
+
+.round-button--lg:hover {
+  background: rgba(70, 110, 84, 0.9);
+}
+
+.round-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.round-button[aria-pressed='true'] {
+  background: var(--color-btn-active);
+}
+
+@media (max-width: 768px) {
+  .side-menu {
+    width: min(257px, calc(100vw - 2 * var(--space-4)));
+  }
+
+  .side-menu.is-open {
+    height: auto;
+    max-height: calc(100dvh - 2 * var(--space-4));
+  }
+
+  .menu-button {
+    height: 52px;
+  }
+}
+
+.side-menu__body {
+  transition: opacity 600ms ease, filter 600ms ease;
+}
+
+.side-menu__body.is-leaving {
+  opacity: 0;
+  filter: blur(8px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .side-menu__body {
+    transition: none;
+  }
+}

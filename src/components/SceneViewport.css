@@ -1,0 +1,69 @@
+.scene-viewport {
+  position: fixed;
+  inset: 0;
+  background: #14201a;
+  overflow: hidden;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.scene-viewport.is-dragging {
+  cursor: grabbing;
+}
+
+/* Fallback looks, only visible if a scene image is missing. */
+.scene-viewport[data-scene='amenities'] {
+  background: linear-gradient(135deg, #2b7a8c 0%, #4d9a5a 45%, #d9744a 100%);
+}
+
+.scene-viewport[data-scene='inventory'] {
+  background: linear-gradient(180deg, #7fb2d8 0%, #d9e6ef 45%, #d8c7a8 46%, #8b8070 100%);
+}
+
+.scene-viewport__layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Drag position: the reference pans the master plan within its overflow. */
+  object-position: calc(var(--pan-x, 0.5) * 100%) calc(var(--pan-y, 0) * 100%);
+  will-change: opacity, filter;
+}
+
+/* The incoming image resolves out of a blur; the outgoing one stays opaque underneath and blurs away. */
+.scene-viewport__layer.is-current {
+  animation: layer-in var(--blur-transition) ease both;
+}
+
+.scene-viewport__layer.is-leaving {
+  animation: layer-out var(--blur-transition) ease both;
+}
+
+@keyframes layer-in {
+  from {
+    opacity: 0;
+    filter: blur(22px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes layer-out {
+  0%,
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+  from {
+    filter: blur(0);
+  }
+  to {
+    filter: blur(14px);
+  }
+}

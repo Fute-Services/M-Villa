@@ -1,0 +1,28 @@
+@import './styles/fonts.css';
+@import './styles/tokens.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-ui);
+  color: var(--color-text);
+  background: #14201a;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --blur-transition: 0ms;
+  }
+}

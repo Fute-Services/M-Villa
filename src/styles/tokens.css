@@ -1,0 +1,46 @@
+/*
+ * Design tokens, see docs/design-tokens.md.
+ * [M] = measured from the reference DOM, [E] = estimate to confirm against assets.
+ */
+:root {
+  /* Colour */
+  --color-text: #ffffff; /* [M] */
+  --color-panel: rgba(70, 95, 80, 0.65); /* [E] */
+  --color-panel-solid: #3f5a4b; /* [E] */
+  --color-btn-fill: rgba(255, 255, 255, 0.12); /* [E] */
+  --color-btn-active: rgba(255, 255, 255, 0.25); /* [E] */
+  --color-border: rgba(255, 255, 255, 0.25); /* [E] */
+  --color-gold: #c9a24b; /* [E] */
+  --color-dark-glass: rgba(15, 25, 20, 0.88); /* [E] */
+  --color-marker-green: #1f5a2e; /* [E] */
+  --color-pin-red: #d93a2e; /* [E] */
+
+  /* Typography */
+  --font-menu: 'PresicavRg-Bold', 'Montserrat', sans-serif; /* [M] licensed font, substitute until supplied */
+  --font-ui: 'Poppins', sans-serif; /* [M] */
+  --font-alt: 'Montserrat', sans-serif; /* [M] */
+  --fs-label: 14px; /* [M] */
+  --fs-label-lg: 16px; /* [M] */
+
+  /* Spacing (4px base) [E] */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 10px;
+  --space-4: 12px; /* [M] panel inset */
+  --space-5: 16px;
+  --space-6: 24px;
+  --space-7: 32px;
+
+  /* Radii */
+  --radius-panel: 16px; /* [M] */
+  --radius-btn: 16px; /* [M] */
+  --radius-pill: 999px; /* [O] */
+  --radius-modal: 20px; /* [E] */
+
+  /* Glass */
+  --blur-panel: blur(20px); /* [M] */
+  --blur-btn: blur(10px); /* [M] */
+
+  /* Motion [U]: placeholder until the walkthrough video is reviewed */
+  --blur-transition: 1500ms; /* Day/Night and scene dissolve, measured from the reference recording (about 1.5 s) */
+}

@@ -1,0 +1,1565 @@
+{
+ "39E7A0C5_7C12_6441_41C7_2090ED2A58A3": {
+  "camera": {
+   "hfov": 115.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "2D1CB1D4_7C6E_2447_41C8_36F9852E38A0",
+    "yaw": 49.73,
+    "pitch": -3.51
+   },
+   {
+    "target": "F63DE010_B60E_0BC8_4188_8C5136A74E59",
+    "yaw": 83.91,
+    "pitch": -3.16
+   }
+  ]
+ },
+ "37C52345_7C12_6441_41DD_FCE116C1C452": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "366D5234_7C12_27C7_41C5_7D63CC8093CE",
+    "yaw": 16.46,
+    "pitch": -9.68
+   },
+   {
+    "target": "F6622B81_B602_1CC8_41E5_B2C04CFA6A51",
+    "yaw": -42.67,
+    "pitch": 3.96
+   }
+  ]
+ },
+ "366D5234_7C12_27C7_41C5_7D63CC8093CE": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "37C52345_7C12_6441_41DD_FCE116C1C452",
+    "yaw": 147.9,
+    "pitch": -36.72
+   }
+  ]
+ },
+ "37E486A0_7C13_ECFF_41DD_B18832135F65": {
+  "camera": {
+   "hfov": 115.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "F6622B81_B602_1CC8_41E5_B2C04CFA6A51",
+    "yaw": 108.37,
+    "pitch": -6.62
+   }
+  ]
+ },
+ "06000260_33EC_F39C_4195_5C492DFB73D0": {
+  "camera": {
+   "hfov": 150.0,
+   "pitch": 0.0,
+   "yaw": -2.16
+  },
+  "links": []
+ },
+ "00ED6507_33EC_B1A4_418D_B51E98C4397D": {
+  "camera": {
+   "hfov": 150.0,
+   "pitch": 0.0,
+   "yaw": -2.16
+  },
+  "links": []
+ },
+ "DF4B2966_F96C_05AB_41EA_8CABDEEDD998": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "79B71470_4C91_57DC_41B8_FBD2EB706731": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "79EA306C_4C9F_4FC4_41CB_BC8370EC22AA",
+    "yaw": 110.27,
+    "pitch": -2.47
+   }
+  ]
+ },
+ "7AC1466F_4C97_53C4_41A0_EDD81CA48001": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "78BBDD95_4C91_B144_41CA_9EFA37A23901",
+    "yaw": -127.82,
+    "pitch": -14.04
+   },
+   {
+    "target": "DC0A9BF7_F954_04A9_41CD_6E306CE91E25",
+    "yaw": -94.77,
+    "pitch": -9.37
+   }
+  ]
+ },
+ "0F45FBF3_4C93_70DC_413A_FC312ECAC154": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -0.77,
+   "yaw": 179.13
+  },
+  "links": []
+ },
+ "381237F7_7C1D_EC41_41D0_0E1D9EF60B6D": {
+  "camera": {
+   "hfov": 115.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "39E7A0C5_7C12_6441_41C7_2090ED2A58A3",
+    "yaw": 103.55,
+    "pitch": -3.2
+   }
+  ]
+ },
+ "DC0A9BF7_F954_04A9_41CD_6E306CE91E25": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "7AC1466F_4C97_53C4_41A0_EDD81CA48001",
+    "yaw": -171.51,
+    "pitch": -6.05
+   }
+  ]
+ },
+ "D7829C5C_F50E_1E80_41E6_A722A3B1B6C6": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "75ED0641_4C92_D33C_41C8_C53DD5A30849",
+    "yaw": 172.83,
+    "pitch": -5.64
+   }
+  ]
+ },
+ "79EA306C_4C9F_4FC4_41CB_BC8370EC22AA": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "78DC083C_4CF1_5F44_41D1_A4A9014AC4B5",
+    "yaw": -102.95,
+    "pitch": -4.84
+   }
+  ]
+ },
+ "D6B4584E_F512_2680_41B8_2698BB00860C": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "68328702_4C71_513C_41C8_814B287727EA": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "68B093FE_4C71_50C4_41CC_55C7B7D1C245",
+    "yaw": -171.96,
+    "pitch": -33.41
+   }
+  ]
+ },
+ "D7562FD0_F50D_F980_41B0_CD232CAD30BB": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "710B6931_4C91_715C_41D2_13D63E4E0B3B",
+    "yaw": -167.35,
+    "pitch": 1.2
+   }
+  ]
+ },
+ "68B093FE_4C71_50C4_41CC_55C7B7D1C245": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "68328702_4C71_513C_41C8_814B287727EA",
+    "yaw": 12.74,
+    "pitch": -7.93
+   },
+   {
+    "target": "693A4F11_4C93_715C_41BE_39D89737BA3B",
+    "yaw": -46.86,
+    "pitch": 5.4
+   }
+  ]
+ },
+ "69E1946F_4C91_B7C4_4165_64FC240C6F58": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "50EDBE3F_4C73_B344_419E_97375ADC36F8",
+    "yaw": 165.49,
+    "pitch": -5.37
+   }
+  ]
+ },
+ "78DC083C_4CF1_5F44_41D1_A4A9014AC4B5": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "46853951_7C32_2441_41D3_6173D9FDA467",
+    "yaw": -99.4,
+    "pitch": -28.53
+   },
+   {
+    "target": "79EA306C_4C9F_4FC4_41CB_BC8370EC22AA",
+    "yaw": -102.32,
+    "pitch": -0.58
+   }
+  ]
+ },
+ "50EDBE3F_4C73_B344_419E_97375ADC36F8": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "69E1946F_4C91_B7C4_4165_64FC240C6F58",
+    "yaw": 159.12,
+    "pitch": -3.11
+   }
+  ]
+ },
+ "656DD51E_4CB1_F144_41C3_199EA3337C8B": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "67DAE0B2_4CAF_4F5C_41C6_B15420296E17",
+    "yaw": 96.7,
+    "pitch": 0.36
+   }
+  ]
+ },
+ "6A102402_4C92_D73C_41D1_AB6D3FCA5D6D": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "50EDBE3F_4C73_B344_419E_97375ADC36F8",
+    "yaw": 141.81,
+    "pitch": -3.59
+   },
+   {
+    "target": "6964CE40_4C97_533C_41B9_81A21BAA63EC",
+    "yaw": 73.64,
+    "pitch": 0.0
+   }
+  ]
+ },
+ "663F9047_4C91_4FC4_41C5_5DCB3FB9AA56": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "662D6739_4C91_D14C_41D0_1EBF7907F23B",
+    "yaw": -56.15,
+    "pitch": -1.95
+   },
+   {
+    "target": "656DD51E_4CB1_F144_41C3_199EA3337C8B",
+    "yaw": -97.59,
+    "pitch": -3.03
+   }
+  ]
+ },
+ "6964CE40_4C97_533C_41B9_81A21BAA63EC": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "6A102402_4C92_D73C_41D1_AB6D3FCA5D6D",
+    "yaw": -167.81,
+    "pitch": -8.54
+   }
+  ]
+ },
+ "75ED0641_4C92_D33C_41C8_C53DD5A30849": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "692FDBBB_4C97_F14C_41A6_005BDB34D439",
+    "yaw": -135.05,
+    "pitch": -5.92
+   },
+   {
+    "target": "D7829C5C_F50E_1E80_41E6_A722A3B1B6C6",
+    "yaw": -68.18,
+    "pitch": -8.33
+   }
+  ]
+ },
+ "AFC8F454_B916_6959_41E0_5B59F6E311B3": {
+  "camera": {
+   "hfov": 25.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "692FDBBB_4C97_F14C_41A6_005BDB34D439": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "97004636_B60E_77C8_41E6_305EF176B349": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.19,
+   "yaw": -99.27
+  },
+  "links": [
+   {
+    "target": "97FDC32F_B60E_0DD8_41C2_5BF63113BD97",
+    "yaw": 149.24,
+    "pitch": 0.0
+   },
+   {
+    "target": "97D165AE_B602_34D8_41E4_F18E9EC43882",
+    "yaw": -13.33,
+    "pitch": -21.85
+   }
+  ]
+ },
+ "710B6931_4C91_715C_41D2_13D63E4E0B3B": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "D7562FD0_F50D_F980_41B0_CD232CAD30BB",
+    "yaw": -80.4,
+    "pitch": 0.73
+   },
+   {
+    "target": "692FDBBB_4C97_F14C_41A6_005BDB34D439",
+    "yaw": 135.62,
+    "pitch": -3.36
+   }
+  ]
+ },
+ "F63DE010_B60E_0BC8_4188_8C5136A74E59": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "39E7A0C5_7C12_6441_41C7_2090ED2A58A3",
+    "yaw": 165.45,
+    "pitch": -2.02
+   }
+  ]
+ },
+ "693A4F11_4C93_715C_41BE_39D89737BA3B": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "68DD3C35_4C92_B744_41B5_56EE2EC9F686",
+    "yaw": 123.55,
+    "pitch": -1.64
+   }
+  ]
+ },
+ "68DD3C35_4C92_B744_41B5_56EE2EC9F686": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "710B6931_4C91_715C_41D2_13D63E4E0B3B",
+    "yaw": -126.59,
+    "pitch": -2.83
+   }
+  ]
+ },
+ "F617C949_B60E_3C58_4167_62F02C08011D": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "F6622B81_B602_1CC8_41E5_B2C04CFA6A51",
+    "yaw": -134.9,
+    "pitch": -8.38
+   }
+  ]
+ },
+ "F6622B81_B602_1CC8_41E5_B2C04CFA6A51": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "381237F7_7C1D_EC41_41D0_0E1D9EF60B6D",
+    "yaw": 121.39,
+    "pitch": -4.88
+   },
+   {
+    "target": "F617C949_B60E_3C58_4167_62F02C08011D",
+    "yaw": 156.33,
+    "pitch": -3.58
+   }
+  ]
+ },
+ "FDF4378F_DB62_675F_41E9_17728DEC8266": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "E9961532_CBFC_99DE_41E7_6CC564505BDA": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "66C35607_4C92_F344_41BC_1AF85B940155": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "651E7FB9_4C91_514C_41C3_E136E9F720C8",
+    "yaw": 171.66,
+    "pitch": -41.36
+   },
+   {
+    "target": "539DEEAD_4C77_B344_419B_BB67BC2E82D9",
+    "yaw": -162.76,
+    "pitch": -41.83
+   }
+  ]
+ },
+ "0E94FEA7_4CAE_D344_41B2_4D112FC7C4AD": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -2.09,
+   "yaw": 155.37
+  },
+  "links": []
+ },
+ "F7865AD2_B602_3C48_41D7_C2A244F0A194": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "F3BA7093_DB66_9947_41D3_273A2040452D": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "67DAE0B2_4CAF_4F5C_41C6_B15420296E17": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "66255E1A_4CB1_734C_41CB_AD0A83EE0A59",
+    "yaw": -98.14,
+    "pitch": -0.45
+   }
+  ]
+ },
+ "0EED7F5D_4CAF_B1C4_41C5_F35DF6C8AB6B": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "69302417_4C9F_5744_41CD_7D862BDEBED8": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -4.93,
+   "yaw": -178.51
+  },
+  "links": [
+   {
+    "target": "6A102402_4C92_D73C_41D1_AB6D3FCA5D6D",
+    "yaw": -144.84,
+    "pitch": 0.07
+   },
+   {
+    "target": "66B3EDE5_4C93_50C4_41D1_189E66E46C47",
+    "yaw": 177.95,
+    "pitch": -16.36
+   }
+  ]
+ },
+ "9A204BEA_B602_3C58_41D7_1C23C6B1908C": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "9C5C4DA4_B8EF_05EE_41D8_A870216394C8": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "66B3EDE5_4C93_50C4_41D1_189E66E46C47": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "69302417_4C9F_5744_41CD_7D862BDEBED8",
+    "yaw": -86.91,
+    "pitch": -45.97
+   }
+  ]
+ },
+ "0D019E6B_4CAF_73CC_41C4_07F271486F60": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "97D90FCD_B601_F458_41C7_307A82C8AE7D",
+    "yaw": -3.27,
+    "pitch": -29.74
+   }
+  ]
+ },
+ "9664DA41_B602_1C48_41C5_6DC718C7D618": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -0.77,
+   "yaw": 0.06
+  },
+  "links": [
+   {
+    "target": "0E94FEA7_4CAE_D344_41B2_4D112FC7C4AD",
+    "yaw": 1.56,
+    "pitch": -1.34
+   },
+   {
+    "target": "0EA7327A_4C91_53CC_41CD_2995B6877C93",
+    "yaw": -0.18,
+    "pitch": -3.38
+   },
+   {
+    "target": "0D5C2C3E_4CAE_D744_41BD_D903391A9606",
+    "yaw": 5.67,
+    "pitch": 0.37
+   }
+  ]
+ },
+ "97FDC32F_B60E_0DD8_41C2_5BF63113BD97": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -0.96,
+   "yaw": 178.8
+  },
+  "links": [
+   {
+    "target": "97D90FCD_B601_F458_41C7_307A82C8AE7D",
+    "yaw": 152.88,
+    "pitch": -27.53
+   },
+   {
+    "target": "97004636_B60E_77C8_41E6_305EF176B349",
+    "yaw": -25.73,
+    "pitch": -25.6
+   }
+  ]
+ },
+ "97D165AE_B602_34D8_41E4_F18E9EC43882": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -2.29,
+   "yaw": 165.61
+  },
+  "links": [
+   {
+    "target": "9623788C_B602_7CD8_41C9_B2EF46BF2B8F",
+    "yaw": 63.66,
+    "pitch": -25.73
+   },
+   {
+    "target": "962478D9_B602_1C78_41E6_8478579360DF",
+    "yaw": -54.72,
+    "pitch": -23.8
+   },
+   {
+    "target": "97004636_B60E_77C8_41E6_305EF176B349",
+    "yaw": 149.94,
+    "pitch": -12.66
+   }
+  ]
+ },
+ "539DEEAD_4C77_B344_419B_BB67BC2E82D9": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "66C35607_4C92_F344_41BC_1AF85B940155",
+    "yaw": -1.62,
+    "pitch": -14.28
+   },
+   {
+    "target": "656DD51E_4CB1_F144_41C3_199EA3337C8B",
+    "yaw": -38.32,
+    "pitch": 11.39
+   },
+   {
+    "target": "651E7FB9_4C91_514C_41C3_E136E9F720C8",
+    "yaw": 0.75,
+    "pitch": -1.07
+   }
+  ]
+ },
+ "66255E1A_4CB1_734C_41CB_AD0A83EE0A59": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "663F9047_4C91_4FC4_41C5_5DCB3FB9AA56",
+    "yaw": 58.02,
+    "pitch": -3.4
+   }
+  ]
+ },
+ "91DB5439_B61E_1438_41E3_C2E2B12F5C99": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -8.47,
+   "yaw": 141.31
+  },
+  "links": []
+ },
+ "9623788C_B602_7CD8_41C9_B2EF46BF2B8F": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -2.24,
+   "yaw": 32.31
+  },
+  "links": [
+   {
+    "target": "97D90FCD_B601_F458_41C7_307A82C8AE7D",
+    "yaw": 144.07,
+    "pitch": 0.0
+   },
+   {
+    "target": "97D165AE_B602_34D8_41E4_F18E9EC43882",
+    "yaw": -119.99,
+    "pitch": -18.94
+   },
+   {
+    "target": "0DA1CC40_4CAF_B73C_41C1_B7929C7C99F1",
+    "yaw": -49.32,
+    "pitch": -22.76
+   }
+  ]
+ },
+ "0D597AD8_4C97_B0CC_41C6_A15131A87A46": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -6.53,
+   "yaw": -0.64
+  },
+  "links": []
+ },
+ "97DEE3D0_B602_0C48_41E1_D07E6A1F6A32": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -6.74,
+   "yaw": 24.45
+  },
+  "links": [
+   {
+    "target": "0DA1CC40_4CAF_B73C_41C1_B7929C7C99F1",
+    "yaw": 106.82,
+    "pitch": -13.79
+   },
+   {
+    "target": "962478D9_B602_1C78_41E6_8478579360DF",
+    "yaw": -171.46,
+    "pitch": -27.66
+   }
+  ]
+ },
+ "962478D9_B602_1C78_41E6_8478579360DF": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -0.82,
+   "yaw": 167.03
+  },
+  "links": [
+   {
+    "target": "962065D0_B602_3448_41E2_9A5086BFA6DC",
+    "yaw": -119.88,
+    "pitch": -22.14
+   },
+   {
+    "target": "97D165AE_B602_34D8_41E4_F18E9EC43882",
+    "yaw": 98.13,
+    "pitch": -25.33
+   },
+   {
+    "target": "97DEE3D0_B602_0C48_41E1_D07E6A1F6A32",
+    "yaw": -3.74,
+    "pitch": -21.64
+   }
+  ]
+ },
+ "85057B3E_98FF_9E1E_41DB_33935AA7F3BE": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.22,
+   "yaw": -3.48
+  },
+  "links": [
+   {
+    "target": "FDF4378F_DB62_675F_41E9_17728DEC8266",
+    "yaw": 3.95,
+    "pitch": 3.85
+   },
+   {
+    "target": "9625914D_B602_0C58_41C1_84E18864549F",
+    "yaw": 1.42,
+    "pitch": 1.94
+   },
+   {
+    "target": "962C9576_B602_1448_41B2_396A72DA415F",
+    "yaw": 10.32,
+    "pitch": -5.66
+   },
+   {
+    "target": "97C73A71_B602_1C48_41E1_0752650A4A54",
+    "yaw": -1.94,
+    "pitch": 2.87
+   },
+   {
+    "target": "97004636_B60E_77C8_41E6_305EF176B349",
+    "yaw": -4.61,
+    "pitch": 4.21
+   },
+   {
+    "target": "96262D0A_B602_35D8_41BF_3CA4CB09BE7B",
+    "yaw": -3.16,
+    "pitch": -4.06
+   },
+   {
+    "target": "97DDC41C_B602_0BF8_41B4_3D036B8BBA79",
+    "yaw": -7.16,
+    "pitch": -0.72
+   },
+   {
+    "target": "97D90FCD_B601_F458_41C7_307A82C8AE7D",
+    "yaw": -6.62,
+    "pitch": 5.9
+   },
+   {
+    "target": "979AC05A_B606_0C78_41C7_51A2F91D7250",
+    "yaw": -5.81,
+    "pitch": 2.1
+   },
+   {
+    "target": "9623788C_B602_7CD8_41C9_B2EF46BF2B8F",
+    "yaw": -10.04,
+    "pitch": 4.64
+   },
+   {
+    "target": "0DA1CC40_4CAF_B73C_41C1_B7929C7C99F1",
+    "yaw": -12.16,
+    "pitch": 2.1
+   },
+   {
+    "target": "97DEE3D0_B602_0C48_41E1_D07E6A1F6A32",
+    "yaw": -13.3,
+    "pitch": -0.33
+   },
+   {
+    "target": "962065D0_B602_3448_41E2_9A5086BFA6DC",
+    "yaw": -1.62,
+    "pitch": 0.66
+   },
+   {
+    "target": "96239AB3_B603_FCC8_41BB_359D62180A09",
+    "yaw": 3.5,
+    "pitch": -3.9
+   },
+   {
+    "target": "97FD9E5B_B606_1478_41E0_A1A1F0FAB903",
+    "yaw": -4.36,
+    "pitch": 2.04
+   },
+   {
+    "target": "9A204BEA_B602_3C58_41D7_1C23C6B1908C",
+    "yaw": -7.0,
+    "pitch": 7.17
+   },
+   {
+    "target": "97DB7892_B606_1CC8_41DC_4C32FC9CD6A4",
+    "yaw": -5.25,
+    "pitch": 1.16
+   },
+   {
+    "target": "97FDC32F_B60E_0DD8_41C2_5BF63113BD97",
+    "yaw": -5.62,
+    "pitch": 4.76
+   },
+   {
+    "target": "0FB0B181_4C93_513C_41C8_DE1D0CCAB714",
+    "yaw": -2.02,
+    "pitch": 4.18
+   },
+   {
+    "target": "0D019E6B_4CAF_73CC_41C4_07F271486F60",
+    "yaw": -5.32,
+    "pitch": 6.16
+   },
+   {
+    "target": "97D165AE_B602_34D8_41E4_F18E9EC43882",
+    "yaw": -6.88,
+    "pitch": 3.25
+   },
+   {
+    "target": "96250C89_B602_14D8_41D6_7B1D4BAB6993",
+    "yaw": 5.89,
+    "pitch": -0.6
+   },
+   {
+    "target": "962478D9_B602_1C78_41E6_8478579360DF",
+    "yaw": -7.19,
+    "pitch": 0.9
+   }
+  ]
+ },
+ "96262D0A_B602_35D8_41BF_3CA4CB09BE7B": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -2.45,
+   "yaw": 25.26
+  },
+  "links": [
+   {
+    "target": "96239AB3_B603_FCC8_41BB_359D62180A09",
+    "yaw": -156.0,
+    "pitch": -25.78
+   },
+   {
+    "target": "962065D0_B602_3448_41E2_9A5086BFA6DC",
+    "yaw": 108.51,
+    "pitch": 0.0
+   }
+  ]
+ },
+ "0DA1CC40_4CAF_B73C_41C1_B7929C7C99F1": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -3.74,
+   "yaw": 27.24
+  },
+  "links": [
+   {
+    "target": "97DEE3D0_B602_0C48_41E1_D07E6A1F6A32",
+    "yaw": -58.6,
+    "pitch": -13.46
+   },
+   {
+    "target": "9623788C_B602_7CD8_41C9_B2EF46BF2B8F",
+    "yaw": 116.53,
+    "pitch": -19.52
+   }
+  ]
+ },
+ "962065D0_B602_3448_41E2_9A5086BFA6DC": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -2.49,
+   "yaw": 79.98
+  },
+  "links": [
+   {
+    "target": "9625914D_B602_0C58_41C1_84E18864549F",
+    "yaw": 178.04,
+    "pitch": -17.8
+   },
+   {
+    "target": "962478D9_B602_1C78_41E6_8478579360DF",
+    "yaw": 4.62,
+    "pitch": -13.58
+   },
+   {
+    "target": "96262D0A_B602_35D8_41BF_3CA4CB09BE7B",
+    "yaw": -23.53,
+    "pitch": -22.64
+   }
+  ]
+ },
+ "97DDC41C_B602_0BF8_41B4_3D036B8BBA79": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -1.15,
+   "yaw": -35.05
+  },
+  "links": []
+ },
+ "97D90FCD_B601_F458_41C7_307A82C8AE7D": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -1.52,
+   "yaw": -177.34
+  },
+  "links": [
+   {
+    "target": "97FDC32F_B60E_0DD8_41C2_5BF63113BD97",
+    "yaw": -24.66,
+    "pitch": -26.56
+   },
+   {
+    "target": "0D019E6B_4CAF_73CC_41C4_07F271486F60",
+    "yaw": -176.63,
+    "pitch": -28.58
+   },
+   {
+    "target": "9623788C_B602_7CD8_41C9_B2EF46BF2B8F",
+    "yaw": 12.79,
+    "pitch": 0.0
+   }
+  ]
+ },
+ "68A9090C_460B_BAE8_4196_E06E0A6A6B3F": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": -0.37
+  },
+  "links": [
+   {
+    "target": "97C73A71_B602_1C48_41E1_0752650A4A54",
+    "yaw": -4.23,
+    "pitch": 3.95
+   },
+   {
+    "target": "0D597AD8_4C97_B0CC_41C6_A15131A87A46",
+    "yaw": -3.81,
+    "pitch": 4.5
+   },
+   {
+    "target": "0EED7F5D_4CAF_B1C4_41C5_F35DF6C8AB6B",
+    "yaw": -0.37,
+    "pitch": 0.29
+   }
+  ]
+ },
+ "786EF5B3_4C91_F15C_41C2_AB64977CFBCC": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "78BBDD95_4C91_B144_41CA_9EFA37A23901",
+    "yaw": 112.22,
+    "pitch": -27.06
+   },
+   {
+    "target": "79B71470_4C91_57DC_41B8_FBD2EB706731",
+    "yaw": 51.18,
+    "pitch": 5.94
+   }
+  ]
+ },
+ "76930B9E_4616_DDE8_41CF_7CDF75DAE628": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.64,
+   "yaw": 0.86
+  },
+  "links": [
+   {
+    "target": "97CA1BFB_B606_FC38_41CF_B6431BC40C21",
+    "yaw": 4.29,
+    "pitch": 3.08
+   },
+   {
+    "target": "97F939FC_B606_3C38_41E5_EDEC80FE030E",
+    "yaw": 2.27,
+    "pitch": -0.95
+   },
+   {
+    "target": "F3BA7093_DB66_9947_41D3_273A2040452D",
+    "yaw": -5.59,
+    "pitch": -1.85
+   },
+   {
+    "target": "97CB1572_B606_1448_41B3_22A12DE78B9F",
+    "yaw": 8.8,
+    "pitch": 0.99
+   },
+   {
+    "target": "97C44F78_B606_3438_41CE_8654DD86EC46",
+    "yaw": -4.5,
+    "pitch": 0.92
+   }
+  ]
+ },
+ "9625914D_B602_0C58_41C1_84E18864549F": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -3.26,
+   "yaw": 114.59
+  },
+  "links": [
+   {
+    "target": "962065D0_B602_3448_41E2_9A5086BFA6DC",
+    "yaw": 37.42,
+    "pitch": -17.59
+   },
+   {
+    "target": "96250C89_B602_14D8_41D6_7B1D4BAB6993",
+    "yaw": -114.44,
+    "pitch": -15.72
+   }
+  ]
+ },
+ "78BBDD95_4C91_B144_41CA_9EFA37A23901": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "7AC1466F_4C97_53C4_41A0_EDD81CA48001",
+    "yaw": 75.51,
+    "pitch": -5.16
+   },
+   {
+    "target": "786EF5B3_4C91_F15C_41C2_AB64977CFBCC",
+    "yaw": -87.65,
+    "pitch": -23.03
+   }
+  ]
+ },
+ "97F939FC_B606_3C38_41E5_EDEC80FE030E": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -2.39,
+   "yaw": 111.07
+  },
+  "links": []
+ },
+ "97CADAA1_B60E_3CC8_41CF_F3E658D8D064": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "97F96702_B606_75C8_41C3_620274C82AF0",
+    "yaw": 3.76,
+    "pitch": 2.85
+   },
+   {
+    "target": "979AC05A_B606_0C78_41C7_51A2F91D7250",
+    "yaw": -4.3,
+    "pitch": -1.2
+   },
+   {
+    "target": "97DB7892_B606_1CC8_41DC_4C32FC9CD6A4",
+    "yaw": 7.86,
+    "pitch": -2.67
+   },
+   {
+    "target": "97FD9E5B_B606_1478_41E0_A1A1F0FAB903",
+    "yaw": 7.98,
+    "pitch": 1.35
+   }
+  ]
+ },
+ "96250C89_B602_14D8_41D6_7B1D4BAB6993": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -4.61,
+   "yaw": -29.8
+  },
+  "links": [
+   {
+    "target": "96239AB3_B603_FCC8_41BB_359D62180A09",
+    "yaw": -24.05,
+    "pitch": -22.3
+   },
+   {
+    "target": "9625914D_B602_0C58_41C1_84E18864549F",
+    "yaw": 61.73,
+    "pitch": -26.8
+   }
+  ]
+ },
+ "97C670DB_B606_0C78_41D8_D76AF7F3E3E9": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -0.81,
+   "yaw": 137.34
+  },
+  "links": []
+ },
+ "979AC05A_B606_0C78_41C7_51A2F91D7250": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -2.33,
+   "yaw": -168.47
+  },
+  "links": []
+ },
+ "9B0A9DF5_B8EF_056E_41E4_BBB27F0AC5FE": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "2D1CB1D4_7C6E_2447_41C8_36F9852E38A0",
+    "yaw": -31.59,
+    "pitch": -3.68
+   }
+  ]
+ },
+ "96239AB3_B603_FCC8_41BB_359D62180A09": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -4.31,
+   "yaw": 158.98
+  },
+  "links": [
+   {
+    "target": "96250C89_B602_14D8_41D6_7B1D4BAB6993",
+    "yaw": 160.84,
+    "pitch": -17.18
+   },
+   {
+    "target": "962C9576_B602_1448_41B2_396A72DA415F",
+    "yaw": -129.31,
+    "pitch": -19.74
+   },
+   {
+    "target": "96262D0A_B602_35D8_41BF_3CA4CB09BE7B",
+    "yaw": 4.81,
+    "pitch": -15.83
+   }
+  ]
+ },
+ "97FD9E5B_B606_1478_41E0_A1A1F0FAB903": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -1.98,
+   "yaw": 151.41
+  },
+  "links": []
+ },
+ "97C44F78_B606_3438_41CE_8654DD86EC46": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 2.57,
+   "yaw": -44.73
+  },
+  "links": []
+ },
+ "0EA7327A_4C91_53CC_41CD_2995B6877C93": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 1.28,
+   "yaw": -53.71
+  },
+  "links": []
+ },
+ "9A71A562_B295_8E77_41E5_7D17B058092C": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "9664DA41_B602_1C48_41C5_6DC718C7D618",
+    "yaw": 4.85,
+    "pitch": 0.0
+   },
+   {
+    "target": "68A9090C_460B_BAE8_4196_E06E0A6A6B3F",
+    "yaw": 6.64,
+    "pitch": 0.0
+   },
+   {
+    "target": "6BE96DC7_463F_5558_41CE_EDC6D68E95C5",
+    "yaw": 0.73,
+    "pitch": 0.0
+   },
+   {
+    "target": "76930B9E_4616_DDE8_41CF_7CDF75DAE628",
+    "yaw": -7.08,
+    "pitch": 0.0
+   },
+   {
+    "target": "97CADAA1_B60E_3CC8_41CF_F3E658D8D064",
+    "yaw": -4.48,
+    "pitch": 0.0
+   }
+  ]
+ },
+ "6BE96DC7_463F_5558_41CE_EDC6D68E95C5": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "0F45FBF3_4C93_70DC_413A_FC312ECAC154",
+    "yaw": 1.46,
+    "pitch": -1.35
+   },
+   {
+    "target": "97C670DB_B606_0C78_41D8_D76AF7F3E3E9",
+    "yaw": 5.47,
+    "pitch": 2.42
+   },
+   {
+    "target": "97ED1E35_B606_37C8_41E0_D75007567131",
+    "yaw": -7.98,
+    "pitch": 2.75
+   }
+  ]
+ },
+ "0FB0B181_4C93_513C_41C8_DE1D0CCAB714": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "0F187639_4C91_D34C_41B6_DF0B8A13972B",
+    "yaw": -169.37,
+    "pitch": -40.74
+   }
+  ]
+ },
+ "962C9576_B602_1448_41B2_396A72DA415F": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -3.33,
+   "yaw": 100.58
+  },
+  "links": [
+   {
+    "target": "96239AB3_B603_FCC8_41BB_359D62180A09",
+    "yaw": 96.9,
+    "pitch": -23.26
+   }
+  ]
+ },
+ "662D6739_4C91_D14C_41D0_1EBF7907F23B": {
+  "camera": null,
+  "links": [
+   {
+    "target": "663F9047_4C91_4FC4_41C5_5DCB3FB9AA56",
+    "yaw": -134.19,
+    "pitch": -9.32
+   }
+  ]
+ },
+ "97F96702_B606_75C8_41C3_620274C82AF0": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": []
+ },
+ "97CA1BFB_B606_FC38_41CF_B6431BC40C21": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.82,
+   "yaw": 167.01
+  },
+  "links": []
+ },
+ "46853951_7C32_2441_41D3_6173D9FDA467": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "78DC083C_4CF1_5F44_41D1_A4A9014AC4B5",
+    "yaw": -140.57,
+    "pitch": -10.74
+   }
+  ]
+ },
+ "97C73A71_B602_1C48_41E1_0752650A4A54": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -3.11,
+   "yaw": 81.38
+  },
+  "links": []
+ },
+ "97DB7892_B606_1CC8_41DC_4C32FC9CD6A4": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 2.1,
+   "yaw": 57.37
+  },
+  "links": []
+ },
+ "2D1CB1D4_7C6E_2447_41C8_36F9852E38A0": {
+  "camera": {
+   "hfov": 115.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "F6622B81_B602_1CC8_41E5_B2C04CFA6A51",
+    "yaw": -134.09,
+    "pitch": -7.02
+   },
+   {
+    "target": "9B0A9DF5_B8EF_056E_41E4_BBB27F0AC5FE",
+    "yaw": 76.42,
+    "pitch": -1.04
+   }
+  ]
+ },
+ "97CB1572_B606_1448_41B3_22A12DE78B9F": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -0.45,
+   "yaw": 38.27
+  },
+  "links": []
+ },
+ "A2CD078B_314D_F69F_4188_E7B629A692DD": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -2.39,
+   "yaw": -128.6
+  },
+  "links": []
+ },
+ "0D5C2C3E_4CAE_D744_41BD_D903391A9606": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -2.79,
+   "yaw": -76.15
+  },
+  "links": []
+ },
+ "97ED1E35_B606_37C8_41E0_D75007567131": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 3.15,
+   "yaw": -164.13
+  },
+  "links": []
+ },
+ "A2CD02DD_314D_EEBB_41BD_92C21945E02F": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -3.86,
+   "yaw": 78.87
+  },
+  "links": []
+ },
+ "651E7FB9_4C91_514C_41C3_E136E9F720C8": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "66C35607_4C92_F344_41BC_1AF85B940155",
+    "yaw": 77.07,
+    "pitch": -13.94
+   },
+   {
+    "target": "66C55AE3_4C91_50FC_41D2_08EE6173E02D",
+    "yaw": 148.92,
+    "pitch": 0.0
+   },
+   {
+    "target": "539DEEAD_4C77_B344_419B_BB67BC2E82D9",
+    "yaw": 76.88,
+    "pitch": 0.0
+   }
+  ]
+ },
+ "0F187639_4C91_D34C_41B6_DF0B8A13972B": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "0FB0B181_4C93_513C_41C8_DE1D0CCAB714",
+    "yaw": -176.79,
+    "pitch": -30.67
+   }
+  ]
+ },
+ "66C55AE3_4C91_50FC_41D2_08EE6173E02D": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": 0.0,
+   "yaw": 0.0
+  },
+  "links": [
+   {
+    "target": "651E7FB9_4C91_514C_41C3_E136E9F720C8",
+    "yaw": 163.54,
+    "pitch": 0.0
+   }
+  ]
+ },
+ "A0CE88E2_314D_DA89_41C2_F4F11BB94EEE": {
+  "camera": {
+   "hfov": 120.0,
+   "pitch": -2.39,
+   "yaw": -66.95
+  },
+  "links": []
+ }
+}

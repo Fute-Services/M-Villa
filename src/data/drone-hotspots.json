@@ -1,0 +1,234 @@
+[
+ {
+  "kind": "label",
+  "yaw": 74.61,
+  "pitch": -1.33,
+  "hfov": 8.75,
+  "vfov": 3.42,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_nbxvjgne_fr.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": 123.8,
+  "pitch": -0.76,
+  "hfov": 18.63,
+  "vfov": 3.42,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_zd0qe97t_fr.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": 152.48,
+  "pitch": -4.81,
+  "hfov": 20.14,
+  "vfov": 4.66,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_skfcrud6_fr.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": 145.0,
+  "pitch": -11.6,
+  "hfov": 23.72,
+  "vfov": 3.62,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_xn61troj_fr.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": 155.89,
+  "pitch": -19.8,
+  "hfov": 21.63,
+  "vfov": 5.29,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_xi7x7vru_fr.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": 162.71,
+  "pitch": 1.84,
+  "hfov": 12.39,
+  "vfov": 2.68,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_x2fbkfx2_fr.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": -173.06,
+  "pitch": 2.77,
+  "hfov": 16.43,
+  "vfov": 3.64,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_cuyu47fy_fr.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": -171.67,
+  "pitch": -10.59,
+  "hfov": 26.71,
+  "vfov": 4.29,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_gfk3od2i_fr.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": -179.94,
+  "pitch": 2.23,
+  "hfov": 4.02,
+  "vfov": 6.05,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": 115.48,
+  "pitch": -1.24,
+  "hfov": 3.53,
+  "vfov": 5.67,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": -59.0,
+  "pitch": -17.75,
+  "hfov": 30.21,
+  "vfov": 5.31,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_zxuiydwo_fr.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": 5.86,
+  "pitch": -38.15,
+  "hfov": 49.9,
+  "vfov": 7.85,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_kjv4isdx_fr.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": 70.91,
+  "pitch": -18.97,
+  "hfov": 27.61,
+  "vfov": 5.52,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_9yc7iv6b_fr.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": 145.85,
+  "pitch": -19.88,
+  "hfov": 5.31,
+  "vfov": 8.24,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": 157.28,
+  "pitch": 1.55,
+  "hfov": 2.65,
+  "vfov": 3.85,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": 133.9,
+  "pitch": -11.72,
+  "hfov": 3.7,
+  "vfov": 5.9,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": 143.74,
+  "pitch": -4.97,
+  "hfov": 4.34,
+  "vfov": 7.48,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": 177.18,
+  "pitch": -11.31,
+  "hfov": 5.77,
+  "vfov": 8.41,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": 71.5,
+  "pitch": -1.81,
+  "hfov": 3.53,
+  "vfov": 5.67,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": 97.56,
+  "pitch": -5.68,
+  "hfov": 15.18,
+  "vfov": 3.42,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_g3lihrdp_fr.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": 90.98,
+  "pitch": -6.1,
+  "hfov": 3.53,
+  "vfov": 5.67,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": 106.81,
+  "pitch": 1.32,
+  "hfov": 9.58,
+  "vfov": 2.69,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_px48gjgt_fr.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": 102.72,
+  "pitch": 0.91,
+  "hfov": 2.69,
+  "vfov": 4.07,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": -91.79,
+  "pitch": -0.38,
+  "hfov": 19.78,
+  "vfov": 3.64,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_iiebbqno_fr.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": -100.28,
+  "pitch": -1.04,
+  "hfov": 4.02,
+  "vfov": 6.05,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": -132.56,
+  "pitch": -1.38,
+  "hfov": 9.42,
+  "vfov": 3.64,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_c7s0sfk6_fr.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": -135.95,
+  "pitch": -1.93,
+  "hfov": 4.02,
+  "vfov": 6.05,
+  "src": "/panoramas/drone/pin.webp"
+ },
+ {
+  "kind": "label",
+  "yaw": -150.89,
+  "pitch": 0.85,
+  "hfov": 11.64,
+  "vfov": 2.93,
+  "src": "/panoramas/drone/panorama_91DB5439_B61E_1438_41E3_C2E2B12F5C99_HS_0hl9x4ci_fr.webp"
+ },
+ {
+  "kind": "pin",
+  "yaw": -155.7,
+  "pitch": 0.35,
+  "hfov": 3.53,
+  "vfov": 4.04,
+  "src": "/panoramas/drone/pin.webp"
+ }
+]

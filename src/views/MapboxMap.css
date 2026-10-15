@@ -1,0 +1,175 @@
+.map-canvas {
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.map-notice {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  display: grid;
+  gap: var(--space-2);
+  width: min(440px, calc(100% - 2 * var(--space-6)));
+  transform: translate(-50%, -50%);
+  padding: var(--space-5) var(--space-6);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-btn);
+  background: var(--color-dark-glass);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.map-notice code {
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 12px;
+}
+
+/* Project logo marker with three pulsing rings (values from the reference map page). */
+.logo-marker-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 82px;
+  height: 82px;
+  cursor: default;
+}
+
+.pulse-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 82px;
+  height: 82px;
+  border: 1.5px solid #c9a96e;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: pulse 2.6s ease-out infinite;
+}
+
+.pulse-ring:nth-child(2) {
+  animation-delay: 0.87s;
+}
+
+.pulse-ring:nth-child(3) {
+  animation-delay: 1.74s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0.85;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2.6);
+    opacity: 0;
+  }
+}
+
+.logo-img {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border: 2.5px solid #c9a96e;
+  border-radius: 50%;
+  background: rgb(12, 69, 12);
+  box-shadow: 0 0 28px rgba(201, 169, 110, 0.65);
+  object-fit: contain;
+}
+
+.amenity-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 1.5px solid rgba(201, 169, 110, 0.42);
+  border-radius: 50%;
+  background: rgba(10, 24, 16, 0.94);
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(8px);
+  font-size: 17px;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.2s, box-shadow 0.2s, opacity 0.25s;
+}
+
+.amenity-marker:hover {
+  transform: scale(1.2);
+  border-color: #c9a96e;
+  box-shadow: 0 4px 20px rgba(201, 169, 110, 0.25);
+}
+
+.amenity-marker.active {
+  border-color: #c9a96e;
+  box-shadow: 0 0 0 3px rgba(201, 169, 110, 0.18), 0 4px 18px rgba(201, 169, 110, 0.3);
+}
+
+.amenity-marker.hidden-marker {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.7);
+}
+
+.mapboxgl-popup-content {
+  padding: 12px 16px;
+  border: 1px solid rgba(201, 169, 110, 0.2);
+  border-radius: 11px;
+  background: rgba(10, 24, 16, 0.97);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(20px);
+  color: #fff;
+  font-family: 'Outfit', var(--font-ui);
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+  border-top-color: rgba(10, 24, 16, 0.97);
+}
+
+.mapboxgl-popup-close-button {
+  color: rgba(201, 169, 110, 0.4);
+  font-size: 16px;
+}
+
+.popup-cat {
+  margin-bottom: 4px;
+  color: #c9a96e;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.popup-name {
+  margin-bottom: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.popup-dist {
+  color: rgba(201, 169, 110, 0.5);
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.mapboxgl-ctrl-attrib {
+  background: rgba(10, 24, 16, 0.5) !important;
+  border-radius: 6px !important;
+}
+
+.mapboxgl-ctrl-attrib a {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pulse-ring {
+    animation: none;
+  }
+}

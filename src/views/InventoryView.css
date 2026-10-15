@@ -1,0 +1,443 @@
+.inventory-stage {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  overflow: hidden;
+  background: #14201a;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+  animation: layer-in var(--blur-transition) ease both;
+}
+
+.inventory-stage:active {
+  cursor: grabbing;
+}
+
+.inventory-stage__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: none;
+  pointer-events: none;
+}
+
+.inventory-pano {
+  position: fixed;
+  inset: 0;
+  z-index: 6;
+}
+
+.inventory-pano__layer {
+  position: absolute;
+  inset: 0;
+}
+
+.inventory-pano__layer.is-current {
+  animation: layer-in var(--blur-transition) ease both;
+}
+
+.inventory-pano__layer.is-leaving {
+  animation: layer-out var(--blur-transition) ease both;
+}
+
+.inventory-pano__layer .pano--embedded {
+  border-radius: 0;
+}
+
+/* Floor-plan card, top-left. Slides in from the left (blurred) when a type is first opened. */
+.plan-card {
+  position: fixed;
+  top: var(--space-4);
+  left: var(--space-4);
+  z-index: 20;
+  width: clamp(250px, 19.5vw, 300px);
+  overflow: hidden;
+  border-radius: 14px;
+  background: rgba(125, 108, 90, 0.62);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  animation: card-in 1100ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes card-in {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(-40px);
+  }
+}
+
+.plan-card__head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 9px 10px 9px 12px;
+  color: #fff;
+  animation: layer-in 700ms ease both;
+}
+
+.plan-card__beds {
+  display: flex;
+  flex-direction: column;
+  min-width: 58px;
+  padding-right: var(--space-3);
+  border-right: 1px solid rgba(255, 255, 255, 0.22);
+  line-height: 1.05;
+}
+
+.plan-card__beds strong {
+  font: 700 15px var(--font-ui);
+}
+
+.plan-card__beds small {
+  font: 500 8px var(--font-ui);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.plan-card__title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+.plan-card__title strong {
+  font: 600 11px var(--font-ui);
+}
+
+.plan-card__title small {
+  font: 500 8px var(--font-ui);
+  letter-spacing: 0.03em;
+}
+
+.plan-card__plan {
+  position: relative;
+  margin: 0 8px 8px;
+  overflow: hidden;
+  border-radius: 8px 8px 8px 22px;
+  background: #eef5ec;
+}
+
+.plan-card__plan img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: filter 500ms ease, opacity 500ms ease;
+  animation: layer-in 900ms ease both;
+}
+
+/* Type change: the plan blurs and a thin progress bar runs in the middle of the card. */
+.plan-card__plan.is-loading img {
+  filter: blur(14px);
+  opacity: 0.55;
+  animation: none;
+}
+
+.plan-card__loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 64px;
+  height: 2px;
+  transform: translate(-50%, -50%);
+  background: rgba(60, 80, 70, 0.35);
+}
+
+.plan-card__loader b {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform-origin: 0 50%;
+  background: #3a8fd8;
+  animation: plan-load 1200ms ease-out both;
+}
+
+@keyframes plan-load {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+/* View cone: sits at the open room's spot on the plan and turns with the camera (--yaw is set live). */
+.plan-card__cone {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  transform: rotate(calc(var(--angle, 0deg) + var(--yaw, 0deg)));
+}
+
+.plan-card__cone::before {
+  content: '';
+  position: absolute;
+  left: -34px;
+  top: -62px;
+  width: 68px;
+  height: 62px;
+  background: rgba(40, 150, 130, 0.62);
+  clip-path: polygon(50% 100%, 0 12%, 18% 0, 82% 0, 100% 12%);
+}
+
+.plan-card__cone i {
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  background: rgb(38, 110, 96);
+}
+
+.plan-card__expand {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: rgba(20, 40, 28, 0.55);
+  color: #fff;
+  cursor: pointer;
+}
+
+.plan-card__expand:hover {
+  background: rgba(20, 40, 28, 0.85);
+}
+
+.plan-card__tip {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 4px;
+  padding: 2px 6px;
+  border: 1px solid #888;
+  background: #f4f4f4;
+  color: #222;
+  font: 400 10px var(--font-ui);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/*
+ * Enlarged plan. In the reference it is not centred: a blurred panel covers the left ~58% of the screen,
+ * the pale sheet sits in it, and the close button is at the panel's right edge near the top.
+ */
+.plan-modal {
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 40;
+  width: 58vw;
+  background: rgba(60, 62, 58, 0.28);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  animation: layer-in 700ms ease both;
+}
+
+.plan-modal__sheet {
+  position: absolute;
+  top: 2dvh;
+  left: 8.6vw;
+  display: grid;
+  place-items: center;
+  width: 41.7vw;
+  max-height: 96dvh;
+  overflow: hidden;
+  border-radius: 14px 14px 14px 40px;
+  background: #eef5ec;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.plan-modal__sheet img {
+  display: block;
+  width: 100%;
+  max-height: 96dvh;
+  object-fit: contain;
+}
+
+.plan-modal__close {
+  position: absolute;
+  top: 40px;
+  left: calc(8.6vw + 41.7vw + 36px);
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  background: rgba(60, 70, 64, 0.7);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Room tabs along the bottom (they scroll sideways when there are many) and fade in after the card. */
+.room-tabs {
+  position: fixed;
+  right: var(--space-4);
+  bottom: 22px;
+  left: 260px;
+  z-index: 20;
+  display: flex;
+  gap: var(--space-3);
+  padding-bottom: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  animation: tabs-in 1000ms 450ms ease both;
+}
+
+@keyframes tabs-in {
+  from {
+    opacity: 0;
+    filter: blur(8px);
+  }
+}
+
+.room-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.room-tab {
+  flex: none;
+  padding: 9px 22px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: rgba(70, 85, 75, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #fff;
+  font: 500 11px var(--font-ui);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 200ms ease;
+}
+
+.room-tab:hover,
+.room-tab.is-active {
+  background: rgba(70, 95, 80, 0.9);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .plan-card,
+  .room-tabs,
+  .plan-card__loader b {
+    animation: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .plan-card {
+    width: 190px;
+  }
+
+  .plan-modal {
+    width: 100vw;
+  }
+
+  .plan-modal__sheet {
+    left: 4vw;
+    width: 92vw;
+  }
+
+  .plan-modal__close {
+    top: 12px;
+    left: auto;
+    right: 12px;
+  }
+
+  .room-tabs {
+    left: var(--space-4);
+    bottom: 56px;
+  }
+}
+
+/* Enlarged plan: clickable spots over each room, with the room name on hover. */
+.plan-modal__plan {
+  position: relative;
+  width: 100%;
+}
+
+.plan-modal__plan img {
+  display: block;
+  width: 100%;
+}
+
+.plan-modal__dot {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.plan-modal__dot:hover,
+.plan-modal__dot:focus-visible {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.9), 0 0 0 4px rgba(30, 90, 60, 0.45);
+}
+
+.plan-modal__dot.is-current {
+  box-shadow: 0 0 0 2px rgba(58, 143, 216, 0.9);
+}
+
+.plan-modal__tip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-top: 4px;
+  padding: 2px 7px;
+  transform: translateX(-50%);
+  border: 1px solid #777;
+  background: #fff;
+  color: #222;
+  font: 400 10px var(--font-ui);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* Closing: the sheet and the blur fade out together instead of vanishing. */
+.plan-modal.is-closing {
+  opacity: 0;
+  transition: opacity 450ms ease;
+  pointer-events: none;
+}
+
+/* While the plan is enlarged, the Types button and room tabs stay usable above the blur (as in the reference). */
+body:has(.plan-modal) .option-list,
+body:has(.plan-modal) .room-tabs {
+  z-index: 45;
+}
+
+/* Room tabs: the strip fades out at the right edge when there are more tabs than fit. */
+.room-tabs {
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 70px), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - 70px), transparent);
+}
+
+/* Types list: the pills drop in one after another from the Types button, then fold back (reference). */
+.option-list--inventory .pill-button:not(.option-list__expander) {
+  animation: pill-drop 420ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(var(--pill-i, 0) * 60ms);
+}
+
+@keyframes pill-drop {
+  from {
+    opacity: 0;
+    transform: translateY(26px) scale(0.96);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .option-list--inventory .pill-button:not(.option-list__expander) {
+    animation: none;
+  }
+}

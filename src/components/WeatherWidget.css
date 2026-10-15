@@ -1,0 +1,155 @@
+/* Frosted bezel around a sky-blue card (proportions measured from the reference recording at a 1540px viewport). */
+.weather {
+  position: fixed;
+  top: var(--space-3);
+  left: var(--space-3);
+  z-index: 20;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 22px;
+  background: rgba(104, 118, 96, 0.78);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.12),
+    0 6px 22px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition:
+    transform 700ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 700ms ease;
+  animation: weather-in 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.weather.is-leaving {
+  opacity: 0;
+  transform: translateX(-130%);
+}
+
+@keyframes weather-in {
+  from {
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+}
+
+.weather__card {
+  position: relative;
+  width: 100%;
+  height: 136px;
+  overflow: hidden;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #8ed3f0 0%, #b4e2f4 45%, #def2fa 100%);
+  color: #2f3e50;
+  font-family: 'Outfit', var(--font-ui);
+}
+
+.weather__sun {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 38% 34%, #ffe45c 0%, #ffbf1f 55%, #ff9d00 100%);
+  box-shadow:
+    0 0 10px 3px rgba(255, 211, 61, 0.55),
+    0 0 26px 8px rgba(255, 220, 90, 0.35);
+}
+
+.weather__cloud {
+  position: absolute;
+  top: 34px;
+  right: 8px;
+  width: 78px;
+  height: 36px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  filter: blur(5px);
+  box-shadow:
+    -22px -8px 0 -2px rgba(255, 255, 255, 0.35),
+    -4px -14px 0 0 rgba(255, 255, 255, 0.3);
+}
+
+.weather__ray {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.weather > .weather__card > * {
+  position: absolute;
+}
+
+.weather__temp {
+  top: 52px;
+  left: 12px;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.weather__temp sup {
+  position: relative;
+  top: -6px;
+  margin-left: 3px;
+  font-size: 18px;
+  vertical-align: top;
+}
+
+.weather__range {
+  bottom: 12px;
+  left: 14px;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.weather__date {
+  top: 12px;
+  right: 14px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.weather__time {
+  top: 26px;
+  right: 14px;
+  font-size: 31px;
+  font-weight: 300;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+}
+
+.weather__city {
+  top: 66px;
+  right: 14px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.weather__condition {
+  right: 14px;
+  bottom: 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .weather {
+    transform-origin: top left;
+    scale: 0.75;
+  }
+
+  .weather.is-leaving {
+    transform: translateX(-160%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .weather,
+  .weather.is-leaving {
+    animation: none;
+    transition: opacity 150ms ease;
+    transform: none;
+  }
+}

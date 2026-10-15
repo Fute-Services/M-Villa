@@ -1,0 +1,155 @@
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  background: #1d3a2b;
+  overflow: hidden;
+}
+
+/* Blurred Home aerial behind the card, as in the reference intro. */
+.intro::before {
+  content: '';
+  position: absolute;
+  inset: -40px;
+  background: url('/scenes/home-day.jpg') center / cover;
+  filter: blur(24px);
+}
+
+.intro__card {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: min(490px, 92vw, calc((100dvh - 80px) * 0.7));
+  overflow: hidden;
+  border-radius: var(--radius-modal);
+  background: #36524a;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+.intro__media {
+  position: relative;
+  aspect-ratio: 9 / 13;
+  background: linear-gradient(160deg, #c79a54, #5a7d5f 70%);
+}
+
+.intro__video,
+.intro__placeholder {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro__video {
+  z-index: 1;
+}
+
+.intro__placeholder {
+  display: grid;
+  place-items: end center;
+  padding-bottom: var(--space-6);
+  font: 500 var(--fs-label) var(--font-ui);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.intro__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 100px; /* [E] */
+  height: 100px;
+  transform: translate(-50%, -50%);
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: rgba(15, 20, 18, 0.85);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 200ms ease;
+}
+
+.intro__play:hover {
+  transform: translate(-50%, -50%) scale(1.06);
+}
+
+.intro__footer {
+  display: grid;
+  place-items: center;
+  padding: var(--space-4);
+}
+
+.intro__explore {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-7);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(180deg, #f1e4b8, #c9b070); /* [E] */
+  color: #2b2a1c;
+  font: 600 var(--fs-label) var(--font-ui);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: opacity 300ms ease, transform 200ms ease;
+}
+
+.intro__explore:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.intro__explore:not(:disabled):hover {
+  transform: translateY(-1px);
+}
+
+.intro__live {
+  z-index: 1;
+  position: fixed;
+  bottom: var(--space-5);
+  left: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-width: 230px;
+  padding: var(--space-4);
+  border-radius: 12px;
+  background: var(--color-dark-glass);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.intro__live p {
+  margin: 0;
+}
+
+.intro__live button {
+  align-self: flex-start;
+  padding: 6px var(--space-5);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--color-gold);
+  color: #1b1b12;
+  font: 600 12px var(--font-ui);
+}
+
+.intro__live button {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .intro__live {
+    display: none;
+  }
+
+  .intro__play {
+    width: 76px;
+    height: 76px;
+  }
+}

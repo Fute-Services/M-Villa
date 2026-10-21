@@ -15,7 +15,7 @@ interface Props {
 }
 
 function Logo() {
-  return <img className="logo" src="/brand/logo.png" alt="Greenz by Danube" draggable={false} />
+  return <img className="logo" src="/brand/hiranandani-logo.webp" alt="Hiranandani Communities" draggable={false} />
 }
 
 export function SideMenu({ scene, open, onOpenChange, onNavigate, onToggleTimeOfDay, onGuide }: Props) {

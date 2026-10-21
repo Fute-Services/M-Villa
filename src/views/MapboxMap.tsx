@@ -107,8 +107,8 @@ function logoMarkerElement() {
   }
   const img = document.createElement('img')
   img.className = 'logo-img'
-  img.src = '/map/Logo-Gold.png'
-  img.alt = 'Greenz by Danube'
+  img.src = '/brand/hiranandani-mark.png'
+  img.alt = 'Hiranandani Communities'
   img.draggable = false
   wrap.append(img)
   return wrap

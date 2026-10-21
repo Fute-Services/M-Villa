@@ -79,6 +79,7 @@
   border-radius: 50%;
   background: rgb(12, 69, 12);
   box-shadow: 0 0 28px rgba(201, 169, 110, 0.65);
+  padding: 16px;
   object-fit: contain;
 }
 

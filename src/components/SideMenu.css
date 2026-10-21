@@ -34,12 +34,12 @@
 
 .logo {
   display: block;
-  height: 64px;
+  height: 56px; /* the Hiranandani logo is about 3:1, so this is ~168px wide beside the toggle */
   width: auto;
 }
 
 .side-menu.is-collapsed .logo {
-  height: 48px;
+  height: 44px;
 }
 
 .side-menu__toggle {

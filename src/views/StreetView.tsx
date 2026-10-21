@@ -125,7 +125,7 @@ export function StreetView({ onBack, resetSignal = 0 }: Props) {
           <div className="minimap__map" style={planStyle} role="group" aria-label="Plan of the street points">
             <img
               className="minimap__logo"
-              src="/map/Logo-Gold.png"
+              src="/brand/hiranandani-mark.png"
               alt=""
               draggable={false}
               style={{ left: `${PLAN_LOGO.x * 100}%`, top: `${PLAN_LOGO.y * 100}%` }}

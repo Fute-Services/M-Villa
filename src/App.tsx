@@ -58,7 +58,7 @@ export default function App() {
       />
 
       {scene === 'intro' ? (
-        <IntroOverlay onExplore={() => goto('home')} onConnect={() => setDialog('guide')} />
+        <IntroOverlay onExplore={() => goto('home')} />
       ) : (
         <>
           <SideMenu

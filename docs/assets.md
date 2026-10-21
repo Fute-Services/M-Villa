@@ -8,9 +8,10 @@ Per the project owner's instruction, media was downloaded from https://danube.di
 | `public/scenes/home-night.jpg` | `panorama_00ED6507_…` | Night view |
 | `public/scenes/amenities-day.jpg` | `panorama_9A71A562_…` | 5763x3220 |
 | `public/scenes/inventory-day.jpg` | `panorama_AFC8F454_…` | 5627x3149 |
-| `public/media/intro.mp4`, `intro-poster.jpg` | `media/video_19557A4A_…_fr.mp4` and poster | 43 MB |
+| `public/media/landing/landing-bg.mp4` | `project-alibaug.vercel.app/assets/screen1_bg-*.mp4` | Opening landing video, taken from the owner's own Fute Services page at their request; 5 s with audio |
+| `public/fonts/Outfit-Variable.woff2` | Google Fonts (open licence), latin subset | Landing text |
 | `public/brochure/slide-00…35.webp` | `media/album_6AAECD2A_…_0…35.webp` | E-Brochure slides, 1600x900 |
-| `public/brand/logo.png` | `skin/Image_5A1D37D0_…` | Greenz by Danube logo |
+| `public/brand/hiranandani-logo.webp`, `hiranandani-mark.png` | the owner's Alibaug page (`Hiranandani-communities-logo-*.webp`); the mark is its left 520x464 crop | Replaces the Greenz by Danube logo in the menu, the map marker and the Street View plan. White text: only shows on dark backgrounds |
 | `public/icons/*.png` | `skin/*` | Menu, hub, social and control icons |
 | `public/fonts/*.woff2` | `fonts/*` | PresicavRg-Bold, Poppins, Montserrat |
 

@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { initialTourState, sceneBackground, tourReducer } from './scenes'
 
 describe('tourReducer', () => {
-  it('starts on the intro scene in day mode with the menu open', () => {
+  it('starts on the landing (intro) scene in day mode with the menu open', () => {
     expect(initialTourState).toEqual({ scene: 'intro', timeOfDay: 'day', menuOpen: true })
   })
 

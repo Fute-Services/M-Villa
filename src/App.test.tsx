@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor, within } from '@testing-library/react'
+import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import App from './App'
 
@@ -25,17 +25,27 @@ beforeEach(() => {
   })) as unknown as typeof window.matchMedia
 })
 
+/** Opens the app, presses Explore and lets the landing fade out (0.8 s) so Home is showing. */
 function enterTour() {
+  vi.useFakeTimers()
   render(<App />)
-  fireEvent.click(screen.getByRole('button', { name: 'Play intro video' }))
   fireEvent.click(screen.getByRole('button', { name: /explore/i }))
+  act(() => {
+    vi.advanceTimersByTime(1000)
+  })
+  vi.useRealTimers()
 }
 
 const menu = (name: RegExp) => screen.getByRole('button', { name })
 
 describe('App tour', () => {
-  it('shows the intro first and enters Home via Explore', () => {
+  it('shows the landing first and enters Home directly after Explore', () => {
+    render(<App />)
+    expect(screen.getByRole('dialog', { name: /welcome/i })).toBeInTheDocument()
+    expect(screen.queryByRole('complementary', { name: 'Main menu' })).toBeNull()
+    cleanup()
     enterTour()
+    expect(screen.queryByRole('dialog', { name: /welcome/i })).toBeNull()
     expect(screen.getByRole('complementary', { name: 'Main menu' })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: 'Day View' })).toBeInTheDocument()
   })
@@ -234,8 +244,8 @@ describe('App tour', () => {
   })
 
   it('explains that live guided sessions are unavailable instead of pretending to connect', () => {
-    render(<App />)
-    fireEvent.click(screen.getByRole('button', { name: 'Connect' }))
+    enterTour()
+    fireEvent.click(screen.getByRole('button', { name: 'Guided session' }))
     expect(screen.getByRole('dialog', { name: 'Live guided session' })).toHaveTextContent(/does not include/)
     fireEvent.keyDown(window, { key: 'Escape' })
     expect(screen.queryByRole('dialog', { name: 'Live guided session' })).toBeNull()
